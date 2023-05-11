@@ -4,7 +4,7 @@ Minimal examples demonstrating the usage of DeSide
 #### Folder structure of `DeSide_mini_example`:
 ```text
 DeSide_mini_example
-|-- DeSide_model
+|-- DeSide_model  # the pre-trained model
 |-- E1 - Using pre-trained model.ipynb
 |-- E2 - Training a model from scratch.ipynb
 |-- E3 - Synthesizing bulk tumors.ipynb
