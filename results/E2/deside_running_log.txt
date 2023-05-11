@@ -1,0 +1,33 @@
+---->>> Start to training model... <<<----
+Wed May 10 16:18:48 2023
+
+---->>> Start to reading training set... <<<----
+Wed May 10 16:18:48 2023
+
+---->>> Start to training model... <<<----
+Wed May 10 16:29:54 2023
+
+---->>> Start to reading training set... <<<----
+Wed May 10 16:29:54 2023
+
+---->>> Start to training model... <<<----
+Wed May 10 16:33:59 2023
+
+---->>> Start to reading training set... <<<----
+Wed May 10 16:33:59 2023
+
+---->>> Start to training model... <<<----
+Wed May 10 16:44:22 2023
+
+---->>> Start to reading training set... <<<----
+Wed May 10 16:44:22 2023
+
+---->>> Start to training model... <<<----
+Wed May 10 18:09:52 2023
+
+---->>> Start to reading training set... <<<----
+Wed May 10 18:09:52 2023
+
+---->>> Training done. <<<----
+Wed May 10 21:47:54 2023
+

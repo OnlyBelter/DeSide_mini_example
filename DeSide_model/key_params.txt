@@ -1,0 +1,31 @@
+{
+  "model_name": "DeSide",
+  "model_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/model_DeSide.h5",
+  "hyper_params": {
+    "architecture": [
+      [
+        100,
+        1000,
+        1000,
+        1000,
+        50
+      ],
+      [
+        0,
+        0,
+        0,
+        0.2,
+        0
+      ]
+    ],
+    "loss_function": "mae+rmse",
+    "batch_normalization": false,
+    "last_layer_activation": "sigmoid",
+    "learning_rate": 2e-05,
+    "batch_size": 128
+  },
+  "training_set_file_path": null,
+  "cell_type_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/celltypes.txt",
+  "gene_list_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/genes.txt",
+  "log_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/DeSide_running_log.txt"
+}

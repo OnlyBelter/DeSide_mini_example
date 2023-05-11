@@ -1,0 +1,11 @@
+	0
+0	B Cells
+1	CD4 T
+2	CD8 T
+3	DC
+4	Endothelial Cells
+5	Fibroblasts
+6	Macrophages
+7	Mast Cells
+8	NK
+9	Neutrophils
