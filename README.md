@@ -10,48 +10,34 @@ DeSide_mini_example
 |-- E3 - Synthesizing bulk tumors.ipynb
 |-- LICENSE
 |-- README.md
-|-- datasets  # please download the datasets from https://figshare.com/account/articles/22801268
+|-- datasets  # three large files need to be downloaded separately
 `-- results
 ```
 
 ### Dependencies
 - `DeSide` is needed to reproduce the results. Please find the installation instructions about [DeSide](https://github.com/OnlyBelter/DeSide).
 
-- The `datasets` folder used in the examples are available at [here](https://figshare.com/account/articles/22801268).
+- Three files that are larger than 100MB in the folder `datasets` are not uploaded to GitHub. Please download them and unzip them to the right place.
+  - `simu_bulk_exp_Mixed_N100K_D1.h5ad`: the synthesized bulk gene expression profile (GEP) dataset after filtering (Dataset D1), which is used in the `example 2` as the training dataset. [Download link](https://doi.org/10.6084/m9.figshare.23047391.v1) (~1.5G)
+  - `simu_bulk_exp_SCT_N10K_S1.h5ad`: the synthesized single-cell GEP dataset (scGEP, Dataset S1), which is used in the `example 3` as the source of single-cell GEPs. [Download link](https://doi.org/10.6084/m9.figshare.23043560.v1) (~2.8G)
+  - `merged_tpm.csv`: gene expression profiles of 19 cancer types in TCGA (TPM format), which is used as the reference dataset to guild the filtering steps in the `example 3`. [Download link](https://doi.org/10.6084/m9.figshare.23047547.v1) (~300M)
 
 #### Folder structure of `datasets`:
 ```text
 datasets
 |-- TCGA
 |   `-- tpm
-|       |-- HNSC
-|       |   |-- HNSC_TPM.csv
-|       |   `-- HNSC_TPM.txt
 |       |-- LUAD
-|       |   |-- LUAD_TPM.csv
-|       |   `-- LUAD_TPM.txt
-|       |-- merged_tpm.csv  # merged TPM of 19 cancer types
+|       |   `-- LUAD_TPM.csv
+|       |-- merged_tpm.csv # merged TPM of 19 cancer types
 |       `-- tcga_sample_id2cancer_type.csv
-|-- cancer_purity
-|   `-- cancer_purity.csv  # downloaded from D. Aran, et al., Nat. Commun. (2015).
-|-- generated_sc_dataset_7ds_n_base100
-|   |-- generated_frac_SCT_POS_N100.csv
-|   |-- generated_frac_SCT_POS_N10K.csv
-|   |-- simu_bulk_exp_SCT_POS_N100_log2cpm1p.h5ad
-|   `-- simu_bulk_exp_SCT_POS_N10K_log2cpm1p.h5ad  # Dataset S1
-|-- simulated_bulk_cell_dataset
-|   `-- segment_7ds_0.95_n_base100_median_gep
-|       |-- D2
-|       |   |-- corr_cell_frac_with_gene_exp_D2.csv
-|       |   |-- corr_cell_frac_with_gene_exp_D2.xlsx
-|       |   `-- gene_list_filtered_by_high_corr_gene.csv  # the list of high correlation genes
-|       `-- simu_bulk_exp_Mixed_N100K_segment_log2cpm1p_filtered_by_high_corr_gene_and_quantile_range_q_5.0_q_95.0.h5ad  # dataset D2
-`-- single_cell
-    |-- gene_list_in_merged_7_sc_datasets.csv
-    |-- merged_7_sc_datasets_log2cpm1p.h5ad  # merged 7 single-cell RNA-seq datasets
-    `-- merged_7_sc_datasets_sample_info.csv
+|-- simu_bulk_exp_SCT_N10K_S1.h5ad # Dataset S1
+`-- simulated_bulk_cell_dataset
+    |-- D2
+    |   |-- corr_cell_frac_with_gene_exp_D2.csv
+    |   `-- gene_list_filtered_by_high_corr_gene.csv # the list of high correlation genes
+    `-- simu_bulk_exp_Mixed_N100K_D1.h5ad # Dataset D2
 ```
-
 
 
 ### Example 1: Using pre-trained model
