@@ -37,9 +37,9 @@
   "generated_bulk_gep_fp": "results/E3/segment_7ds_0.95_n_base100_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p.h5ad",
   "n_neighbors_each_ref": 1,
   "zero_ratio_threshold": 0.97,
-  "sct_dataset_file_path": "./datasets/generated_sc_dataset_7ds_n_base100/simu_bulk_exp_SCT_POS_N10K_log2cpm1p.h5ad",
+  "sct_dataset_file_path": "./datasets/simu_bulk_exp_SCT_N10K_S1.h5ad",
   "sc_dataset_gep_type": "log_space",
   "tcga2cancer_type_file_path": "./datasets/TCGA/tpm/tcga_sample_id2cancer_type.csv"
 } <<<----
-Thu May 11 15:52:33 2023
+Tue May 23 01:22:51 2023
 

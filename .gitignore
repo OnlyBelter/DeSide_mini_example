@@ -159,7 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 .DS_Store
-# find . -size +100M | cat >> .gitignore
+# find . -size +100M | sed 's|^\./||g' | cat >> .gitignore
 #datasets/*
 datasets/TCGA/tpm/merged_tpm.csv.zip
 datasets/TCGA/tpm/merged_tpm.csv
@@ -167,3 +167,6 @@ datasets/simu_bulk_exp_SCT_N10K_S1.h5ad.zip
 datasets/simulated_bulk_cell_dataset/simu_bulk_exp_Mixed_N100K_D1.h5ad
 datasets/simulated_bulk_cell_dataset/simu_bulk_exp_Mixed_N100K_D1.h5ad.zip
 datasets/simu_bulk_exp_SCT_N10K_S1.h5ad
+results/E3/segment_7ds_0.95_n_base100_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p.csv
+results/E3/segment_7ds_0.95_n_base100_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p_filtered_by_high_corr_gene_and_quantile_range_q_5.0_q_95.0.h5ad
+results/E3/segment_7ds_0.95_n_base100_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p.h5ad
