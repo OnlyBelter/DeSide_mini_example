@@ -1,11 +1,16 @@
 	0
-0	B Cells
-1	CD4 T
-2	CD8 T
-3	DC
-4	Endothelial Cells
-5	Fibroblasts
-6	Macrophages
-7	Mast Cells
-8	NK
-9	Neutrophils
+0	Plasma B cells
+1	Non-plasma B cells
+2	CD4 T
+3	CD8 T effector
+4	CD8 T (GZMK high)
+5	Double-neg-like T
+6	DC
+7	Endothelial Cells
+8	CAFs
+9	Myofibroblasts
+10	Macrophages
+11	Mast Cells
+12	NK
+13	Neutrophils
+14	Monocytes

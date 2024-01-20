@@ -1,31 +1,56 @@
 {
   "model_name": "DeSide",
-  "model_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/model_DeSide.h5",
+  "model_file_path": "results/whole_workflow_20231110_12ds_subtypes/DeSide_02_new_ds_subtypes_all_range/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/model_DeSide.h5",
   "hyper_params": {
     "architecture": [
       [
-        100,
-        1000,
-        1000,
-        1000,
+        200,
+        2000,
+        2000,
+        2000,
+        50
+      ],
+      [
+        0.05,
+        0.05,
+        0.05,
+        0.2,
+        0
+      ]
+    ],
+    "architecture_for_pathway_network": [
+      [
+        50,
+        500,
+        500,
+        500,
         50
       ],
       [
         0,
         0,
         0,
-        0.2,
+        0,
         0
       ]
     ],
-    "loss_function": "mae+rmse",
-    "batch_normalization": false,
+    "loss_function_alpha": 0.5,
+    "normalization": "layer_normalization",
+    "normalization_layer": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "pathway_network": true,
     "last_layer_activation": "sigmoid",
-    "learning_rate": 2e-05,
+    "learning_rate": 0.0001,
     "batch_size": 128
   },
   "training_set_file_path": null,
-  "cell_type_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/celltypes.txt",
-  "gene_list_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/genes.txt",
-  "log_file_path": "results/whole_workflow_20230216_7ds_new_hp_without_caner_cell/DeSide_009/DeSide_running_log.txt"
+  "cell_type_file_path": "results/whole_workflow_20231110_12ds_subtypes/DeSide_02_new_ds_subtypes_all_range/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/celltypes.txt",
+  "gene_list_file_path": "results/whole_workflow_20231110_12ds_subtypes/DeSide_02_new_ds_subtypes_all_range/Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering/DeSide_model/genes.txt",
+  "log_file_path": "results/whole_workflow_20231110_12ds_subtypes/DeSide_02_new_ds_subtypes_all_range/DeSide_running_log.txt"
 }
