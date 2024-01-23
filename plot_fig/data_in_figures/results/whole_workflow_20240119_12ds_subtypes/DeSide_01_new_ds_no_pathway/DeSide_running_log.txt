@@ -1,0 +1,156 @@
+---->>> Step1: simulating bulk cell expression profiles... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset SCT_POS_N100... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset SCT_POS_N100_test... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset SCT_POS_N10K... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset Mixed_N100K_segment_without_filtering... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset Test_set0... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset Test_set1... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset Test_set1_mmd... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Generating dataset Test_set2... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_filtered... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Start to training model... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Start to reading training set... <<<----
+Fri Jan 19 10:48:57 2024
+
+---->>> Step1: simulating bulk cell expression profiles... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset SCT_POS_N100... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset SCT_POS_N100_test... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset SCT_POS_N10K... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset Mixed_N100K_segment_without_filtering... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset Test_set0... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset Test_set1... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset Test_set1_mmd... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Generating dataset Test_set2... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_filtered... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Start to training model... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Start to reading training set... <<<----
+Fri Jan 19 15:20:30 2024
+
+---->>> Training done. <<<----
+Fri Jan 19 16:32:06 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Fri Jan 19 16:32:07 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Fri Jan 19 16:34:32 2024
+
+---->>> Step1: simulating bulk cell expression profiles... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset SCT_POS_N100... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset SCT_POS_N100_test... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset SCT_POS_N10K... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset Mixed_N100K_segment_without_filtering... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset Test_set0... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset Test_set1... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset Test_set1_mmd... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Generating dataset Test_set2... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_filtered... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Fri Jan 19 23:26:04 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Fri Jan 19 23:27:13 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_without_filtering... <<<----
+Fri Jan 19 23:41:54 2024
+
+---->>> Start to training model... <<<----
+Fri Jan 19 23:41:54 2024
+
+---->>> Start to reading training set... <<<----
+Fri Jan 19 23:41:54 2024
+
+---->>> Training done. <<<----
+Sat Jan 20 01:12:00 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Sat Jan 20 01:12:02 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Sat Jan 20 01:15:24 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_filtered-Mixed_N100K_segment_without_filtering... <<<----
+Sat Jan 20 01:39:51 2024
+
+---->>> Start to training model... <<<----
+Sat Jan 20 01:39:51 2024
+
+---->>> Start to reading training set... <<<----
+Sat Jan 20 01:39:51 2024
+
+---->>> Training done. <<<----
+Sat Jan 20 03:52:21 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Sat Jan 20 03:52:24 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Sat Jan 20 03:55:00 2024
+
+---->>> All Done! <<<----
+Sat Jan 20 04:22:55 2024
+
