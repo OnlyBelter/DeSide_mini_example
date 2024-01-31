@@ -18,8 +18,8 @@ DeSide_mini_example
 - `DeSide` is needed to reproduce the results. Please find the installation instructions about [DeSide](https://github.com/OnlyBelter/DeSide).
 
 - Three files that are larger than 100MB in the folder `datasets` are not uploaded to GitHub. Please download them and unzip them to the right place.
-  - `simu_bulk_exp_Mixed_N100K_D1.h5ad`: the synthesized bulk gene expression profile (GEP) dataset after filtering (Dataset D1), which is used in the `example 2` as the training dataset. [Download link](https://doi.org/10.6084/m9.figshare.23047391.v1) (~1.5G)
-  - `simu_bulk_exp_SCT_N10K_S1.h5ad`: the synthesized single-cell GEP dataset (scGEP, Dataset S1), which is used in the `example 3` as the source of single-cell GEPs. [Download link](https://doi.org/10.6084/m9.figshare.23043560.v1) (~2.8G)
+  - `simu_bulk_exp_Mixed_N100K_D1.h5ad`: the synthesized bulk gene expression profiles (GEPs) after filtering (Dataset D1), which is used in the `example 2` as the training dataset. [Download link](https://doi.org/10.6084/m9.figshare.23047391.v2) (~2.2G)
+  - `simu_bulk_exp_SCT_N10K_S1_16sct.h5ad`: the synthesized single-cell-type GEPs (sctGEPs, Dataset S1), which is used in the `example 3` as the source of single-cell GEPs for simulation. [Download link](https://doi.org/10.6084/m9.figshare.23043560.v2) (~7G)
   - `merged_tpm.csv`: gene expression profiles of 19 cancer types in TCGA (TPM format), which is used as the reference dataset to guild the filtering steps in the `example 3`. [Download link](https://doi.org/10.6084/m9.figshare.23047547.v1) (~300M)
 
 #### Folder structure of `datasets`:
