@@ -13,6 +13,7 @@ DeSide_mini_example
 ├── datasets  # three large files need to be downloaded separately
 ├── results   # the results of the three examples
 ├── plot_fig  # the figures and relevant data in the manuscript
+├── main_workflow_demo.py  # the main workflow of the manuscript, only for achieving the code
 └── single_cell_dataset_integration  # the single-cell dataset used in the manuscript
 ```
 
