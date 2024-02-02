@@ -1,9 +1,15 @@
 ---->>> Start to training model... <<<----
-Mon May 22 18:37:34 2023
+Thu Feb  1 18:29:36 2024
 
 ---->>> Start to reading training set... <<<----
-Mon May 22 18:37:34 2023
+Thu Feb  1 18:29:36 2024
+
+---->>> Start to training model... <<<----
+Thu Feb  1 18:30:56 2024
+
+---->>> Start to reading training set... <<<----
+Thu Feb  1 18:30:56 2024
 
 ---->>> Training done. <<<----
-Mon May 22 21:01:20 2023
+Fri Feb  2 01:52:07 2024
 

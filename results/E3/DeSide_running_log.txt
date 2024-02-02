@@ -1,18 +1,28 @@
 ---->>> <class 'deside.simulation.generate_data.BulkGEPGenerator'>:
 {
-  "simu_bulk_dir": "results/E3/segment_7ds_0.95_n_base100_median_gep",
+  "simu_bulk_dir": "results/E3/segment_12ds_0.95_n_base100_19cancer_pca_0.9_median_gep",
   "cell_type_used": [
     "B Cells",
     "CD4 T",
     "CD8 T",
-    "Cancer Cells",
     "DC",
     "Endothelial Cells",
+    "Cancer Cells",
     "Fibroblasts",
     "Macrophages",
     "Mast Cells",
     "NK",
-    "Neutrophils"
+    "Neutrophils",
+    "Double-neg-like T",
+    "Monocytes"
+  ],
+  "cell_subtype_used": [
+    "Non-plasma B cells",
+    "Plasma B cells",
+    "CD8 T (GZMK high)",
+    "CD8 T effector",
+    "CAFs",
+    "Myofibroblasts"
   ],
   "sc_dataset_used": [
     "hnscc_cillo_01",
@@ -21,25 +31,32 @@
     "pdac_steele_04",
     "luad_kim_05",
     "nsclc_guo_06",
-    "pan_cancer_07"
+    "pan_cancer_07",
+    "prad_cheng_08",
+    "prad_dong_09",
+    "hcc_sun_10",
+    "gbm_neftel_11",
+    "gbm_abdelfattah_12"
   ],
   "bulk_dataset_name": "Mixed_N10K_segment",
-  "n_samples": 10000,
-  "generated_bulk_gep_counter": 10000,
-  "n_round": 46,
+  "n_samples": 8000,
+  "generated_bulk_gep_counter": 8000,
+  "n_round": 15,
   "total_cell_number": 1,
   "filtering_quantile_upper": 0.95,
   "filtering_quantile_lower": 0.0,
-  "generated_cell_fraction_fp": "results/E3/segment_7ds_0.95_n_base100_median_gep/generated_frac_Mixed_N10K_segment.csv",
-  "ref_neighbor_counter_fp": "results/E3/segment_7ds_0.95_n_base100_median_gep/ref2n_neighbors_Mixed_N10K_segment.csv",
-  "generated_bulk_gep_csv_fp": "results/E3/segment_7ds_0.95_n_base100_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p.csv",
-  "sampled_sc_cell_id_file_path": "results/E3/segment_7ds_0.95_n_base100_median_gep/simu_bulk_exp_Mixed_N10K_segment_sampled_sc_cell_id.csv",
-  "generated_bulk_gep_fp": "results/E3/segment_7ds_0.95_n_base100_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p.h5ad",
+  "generated_cell_fraction_fp": "results/E3/segment_12ds_0.95_n_base100_19cancer_pca_0.9_median_gep/generated_frac_Mixed_N10K_segment.csv",
+  "ref_neighbor_counter_fp": "results/E3/segment_12ds_0.95_n_base100_19cancer_pca_0.9_median_gep/ref2n_neighbors_Mixed_N10K_segment.csv",
+  "generated_bulk_gep_csv_fp": "results/E3/segment_12ds_0.95_n_base100_19cancer_pca_0.9_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p.csv",
+  "sampled_sc_cell_id_file_path": "results/E3/segment_12ds_0.95_n_base100_19cancer_pca_0.9_median_gep/simu_bulk_exp_Mixed_N10K_segment_sampled_sc_cell_id.csv",
+  "generated_bulk_gep_fp": "results/E3/segment_12ds_0.95_n_base100_19cancer_pca_0.9_median_gep/simu_bulk_exp_Mixed_N10K_segment_log2cpm1p.h5ad",
   "n_neighbors_each_ref": 1,
   "zero_ratio_threshold": 0.97,
-  "sct_dataset_file_path": "./datasets/simu_bulk_exp_SCT_N10K_S1.h5ad",
+  "sct_dataset_file_path": "./datasets/simu_bulk_exp_SCT_N10K_S1_16sct.h5ad",
   "sc_dataset_gep_type": "log_space",
-  "tcga2cancer_type_file_path": "./datasets/TCGA/tpm/tcga_sample_id2cancer_type.csv"
+  "tcga2cancer_type_file_path": "./datasets/TCGA/tpm/tcga_sample_id2cancer_type.csv",
+  "subtype_col_name": "cell_type",
+  "cell_type_col_name": "cell_type"
 } <<<----
-Tue May 23 01:22:51 2023
+Fri Feb  2 12:13:25 2024
 

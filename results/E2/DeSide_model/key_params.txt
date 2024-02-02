@@ -4,10 +4,10 @@
   "hyper_params": {
     "architecture": [
       [
-        100,
-        1000,
-        1000,
-        1000,
+        200,
+        2000,
+        2000,
+        2000,
         50
       ],
       [
@@ -18,10 +18,35 @@
         0
       ]
     ],
-    "loss_function": "mae+rmse",
-    "batch_normalization": false,
+    "architecture_for_pathway_network": [
+      [
+        50,
+        500,
+        500,
+        500,
+        50
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "loss_function_alpha": 0.5,
+    "normalization": "layer_normalization",
+    "normalization_layer": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "pathway_network": true,
     "last_layer_activation": "sigmoid",
-    "learning_rate": 2e-05,
+    "learning_rate": 0.0001,
     "batch_size": 128
   },
   "training_set_file_path": null,

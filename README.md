@@ -4,14 +4,16 @@ Minimal examples demonstrating the usage of DeSide
 #### Folder structure of `DeSide_mini_example`:
 ```text
 DeSide_mini_example
-|-- DeSide_model  # the pre-trained model
-|-- E1 - Using pre-trained model.ipynb
-|-- E2 - Training a model from scratch.ipynb
-|-- E3 - Synthesizing bulk tumors.ipynb
-|-- LICENSE
-|-- README.md
-|-- datasets  # three large files need to be downloaded separately
-`-- results
+├── DeSide_model  # the pre-trained model, one large file need to be downloaded separately
+├── E1 - Using pre-trained model.ipynb
+├── E2 - Training a model from scratch.ipynb
+├── E3 - Synthesizing bulk tumors.ipynb
+├── LICENSE
+├── README.md
+├── datasets  # three large files need to be downloaded separately
+├── results   # the results of the three examples
+├── plot_fig  # the figures and relevant data in the manuscript
+└── single_cell_dataset_integration  # the single-cell dataset used in the manuscript
 ```
 
 ### Dependencies
@@ -37,6 +39,31 @@ datasets
     |   |-- corr_cell_frac_with_gene_exp_D2.csv
     |   `-- gene_list_filtered_by_high_corr_gene.csv # the list of high correlation genes
     `-- simu_bulk_exp_Mixed_N100K_D1.h5ad # Dataset D1 (need to be downloaded separately)
+    
+    
+datasets
+├── TCGA
+│ ├── pca_model_0.9  # the PCA model fitted by the TCGA dataset for GEP-level filtering
+│ │ ├── gene_list_for_pca.csv
+│ │ ├── tcga_pca_model_for_gep_filtering.pkl  # generated during dataset generation
+│ │ └── tcga_pca_ref.csv
+│ └── tpm
+│     ├── LUAD
+│     │ └── LUAD_TPM.csv
+│     ├── merged_tpm.csv # merged TPM of 19 cancer types (need to be downloaded separately)
+│     └── tcga_sample_id2cancer_type.csv
+├── gene_set  # used as the pathway profiles
+│ ├── c2.cp.kegg.v2023.1.Hs.symbols.gmt
+│ └── c2.cp.reactome.v2023.1.Hs.symbols.gmt
+├── simu_bulk_exp_SCT_N10K_S1_16sct.h5ad # Dataset S1 (need to be downloaded separately)
+└── simulated_bulk_cell_dataset
+    ├── D1
+    │ ├── gene_list_filtered_by_high_corr_gene_and_quantile_range.csv  # gene list after gene-level filtering (different datasets can generate this gene list slightly differently)
+    │ ├── gene_list_filtered_by_quantile_range_q_0.5_q_99.5.csv
+    │ └── simu_bulk_exp_Mixed_N100K_D1.h5ad # Dataset D1 (need to be downloaded separately)
+    └── D2
+        ├── corr_cell_frac_with_gene_exp_D2.csv
+        └── gene_list_filtered_by_high_corr_gene.csv # the list of high correlation genes (the same one used for the filtering step in other datasets)
 ```
 
 - The following file in the folder `DeSide_model` is larger than 100MB and has not been uploaded to GitHub. Please download and unzip it to the right place.
