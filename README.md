@@ -27,21 +27,6 @@ DeSide_mini_example
 #### Folder structure of `datasets`:
 ```text
 datasets
-|-- TCGA
-|   `-- tpm
-|       |-- LUAD
-|       |   `-- LUAD_TPM.csv
-|       |-- merged_tpm.csv # merged TPM of 19 cancer types (need to be downloaded separately)
-|       `-- tcga_sample_id2cancer_type.csv
-|-- simu_bulk_exp_SCT_N10K_S1_16sct.h5ad # Dataset S1 (need to be downloaded separately)
-`-- simulated_bulk_cell_dataset
-    |-- D2
-    |   |-- corr_cell_frac_with_gene_exp_D2.csv
-    |   `-- gene_list_filtered_by_high_corr_gene.csv # the list of high correlation genes
-    `-- simu_bulk_exp_Mixed_N100K_D1.h5ad # Dataset D1 (need to be downloaded separately)
-    
-    
-datasets
 ├── TCGA
 │ ├── pca_model_0.9  # the PCA model fitted by the TCGA dataset for GEP-level filtering
 │ │ ├── gene_list_for_pca.csv
