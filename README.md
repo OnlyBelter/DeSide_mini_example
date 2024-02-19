@@ -23,7 +23,7 @@ DeSide_mini_example
 - Three files larger than 100MB in the `datasets` folder are not uploaded to GitHub. Please download and unzip them to the right place.
   - `simu_bulk_exp_Mixed_N100K_D1.h5ad`: the synthesized bulk gene expression profiles (GEPs) after filtering (Dataset D1), which is used in the `example 2` as the training dataset. [Download link](https://doi.org/10.6084/m9.figshare.23047391.v2) (~2.2G)
   - `simu_bulk_exp_SCT_N10K_S1_16sct.h5ad`: the synthesized single-cell-type GEPs (sctGEPs, Dataset S1), which is used in the `example 3` as the source of single-cell GEPs for simulation. [Download link](https://doi.org/10.6084/m9.figshare.23043560.v2) (~7G)
-  - `merged_tpm.csv`: gene expression profiles of 19 cancer types in TCGA (TPM format), which is used as the reference dataset to guild the filtering steps in the `example 3`. [Download link](https://doi.org/10.6084/m9.figshare.23047547.v1) (~300M)
+  - `merged_tpm.csv`: gene expression profiles of 19 cancer types in TCGA (TPM format), which is used as the reference dataset to guild the filtering steps in the `example 3`. [Download link](https://doi.org/10.6084/m9.figshare.23047547.v2) (~300M)
 
 #### Folder structure of `datasets`:
 ```text
@@ -52,8 +52,8 @@ datasets
         └── gene_list_filtered_by_high_corr_gene.csv # the list of high correlation genes (the same one used for the filtering step in other datasets)
 ```
 
-- The following file in the folder `DeSide_model` is larger than 100MB and has not been uploaded to GitHub. Please download and unzip it to the right place.
- - `model_DeSide.h5`: the pre-trained model, which is used in the `example 1`. [Download link](https://doi.org/10.6084/m9.figshare.25117862.v1) (~100M)
+- The following file in the folder `DeSide_model` is larger than 100MB and has not been uploaded to GitHub. Please download and put it to the right place.
+  - `model_DeSide.h5`: the pre-trained model, which is used in the `example 1`. [Download link](https://doi.org/10.6084/m9.figshare.25117862.v1) (~100M)
 
 #### Folder structure of `DeSide_model`:
 ```text
