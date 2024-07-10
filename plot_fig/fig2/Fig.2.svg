@@ -7,7 +7,7 @@
    id="svg5485"
    sodipodi:docname="Fig.2.svg"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   inkscape:export-filename="Fig.2.pdf"
+   inkscape:export-filename="Fig.2.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -30,11 +30,11 @@
      inkscape:document-units="in"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="1.0543273"
-     inkscape:cx="273.6342"
-     inkscape:cy="476.13299"
+     inkscape:zoom="1.8220149"
+     inkscape:cx="270.85399"
+     inkscape:cy="757.95209"
      inkscape:window-width="2560"
-     inkscape:window-height="1294"
+     inkscape:window-height="1286"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -54,27 +54,27 @@
        inkscape:label=""
        inkscape:color="rgb(0,134,229)" />
     <sodipodi:guide
-       position="-38.412812,476.96128"
+       position="-36.990114,453.48679"
        orientation="0,-1"
        id="guide735633"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-61.840061,591.268"
+       position="-57.619216,568.01387"
        orientation="0,-1"
        id="guide905323"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-51.92843,346.78453"
+       position="-53.100128,344.63528"
        orientation="0,-1"
        id="guide1427809"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-9.9588771,208.78294"
+       position="-9.9588769,185.30846"
        orientation="0,-1"
        id="guide1898764"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="298.73386,827.97486"
+       position="6.1744335,789.60612"
        orientation="0,-1"
        id="guide1948039"
        inkscape:locked="false" />
@@ -84,7 +84,7 @@
        id="guide1948061"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="307.66709,327.75509"
+       position="306.66353,850.52719"
        orientation="1,0"
        id="guide1948149"
        inkscape:locked="false" />
@@ -99,17 +99,17 @@
        id="guide137332"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-24.185844,339.67104"
+       position="-25.932621,322.81894"
        orientation="0,-1"
        id="guide864539"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="289.96994,748.2834"
+       position="-63.310003,723.79916"
        orientation="0,-1"
        id="guide96908"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="377.905,513.07057"
+       position="-36.990114,489.05421"
        orientation="0,-1"
        id="guide113992"
        inkscape:locked="false" />
@@ -119,9 +119,39 @@
        id="guide115110"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="300.48978,670.05895"
+       position="-38.412811,646.26219"
        orientation="0,-1"
        id="guide127676"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="30.872167,799.89685"
+       orientation="0,-1"
+       id="guide227816"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="158.47713,851.76208"
+       orientation="1,0"
+       id="guide227829"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="232.57033,849.70394"
+       orientation="1,0"
+       id="guide227831"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="343.2985,820.4783"
+       orientation="1,0"
+       id="guide227833"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="381.16836,848.46905"
+       orientation="1,0"
+       id="guide227835"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="129.6631,827.88762"
+       orientation="0,-1"
+       id="guide287765"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
@@ -27852,7 +27882,7 @@
     <g
        id="figure_1"
        style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(42.434651,358.42045)">
+       transform="translate(42.434651,382.42029)">
       <g
          id="patch_1"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -31073,7 +31103,7 @@
     <g
        id="figure_1-38"
        style="display:inline;stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(42.434651,495.35086)">
+       transform="translate(42.434651,519.3507)">
       <g
          id="patch_1-4"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -33972,7 +34002,7 @@
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:normal;font-family:Arial;text-anchor:start;fill:#262626;stroke-linecap:butt;stroke-linejoin:round"
                x="267.44751"
                y="24.861563"
-               id="text334580">DeSide-No Pathway (5 replicates)</text>
+               id="text334580">DeSide-NoPathway (5 replicates)</text>
           </g>
           <g
              id="LineCollection_6-4"
@@ -41404,7 +41434,10 @@
     <g
        id="figure_1-7"
        style="display:inline;stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(128.35249,22.606367)">
+       transform="translate(128.35249,46.606175)"
+       inkscape:export-filename="Fig.2a.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="patch_1-94"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -50527,7 +50560,7 @@
     <g
        id="figure_1-90"
        style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(471.51624,19.244121)">
+       transform="translate(471.51624,43.243929)">
       <g
          id="patch_1-21"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -50839,7 +50872,7 @@
     <g
        id="figure_1-96"
        style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(471.20071,97.534253)">
+       transform="translate(471.20071,121.53409)">
       <g
          id="patch_1-86"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -51151,7 +51184,7 @@
     <g
        id="figure_1-1"
        style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(471.43761,175.4432)">
+       transform="translate(471.43761,199.44304)">
       <g
          id="patch_1-81"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -51460,7 +51493,7 @@
     <g
        id="figure_1-92"
        style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="translate(471.55606,253.70049)">
+       transform="translate(471.55606,277.70033)">
       <g
          id="patch_1-7"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -51868,47 +51901,47 @@
        x="58.268318"
        y="127.84244"
        id="text970510"
-       transform="translate(406.64134,-116.7914)"><tspan
+       transform="translate(414.14129,-97.291534)"><tspan
          x="58.268318"
          y="127.84244"
-         id="tspan638587"><tspan
+         id="tspan112512"><tspan
            style="font-weight:normal;-inkscape-font-specification:Arial"
-           id="tspan638585">PCA of the embedding </tspan></tspan><tspan
+           id="tspan112510">PCA of the embedding </tspan></tspan><tspan
          x="58.268318"
          y="137.84245"
-         id="tspan638593"><tspan
+         id="tspan112518"><tspan
            style="font-weight:normal;-inkscape-font-specification:Arial"
-           id="tspan638589">in the last hidden </tspan><tspan
+           id="tspan112514">in the last hidden </tspan><tspan
            style="font-weight:normal;-inkscape-font-specification:Arial"
-           id="tspan638591">layer</tspan></tspan></text>
+           id="tspan112516">layer</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;inline-size:87.06;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
        x="50.876068"
        y="252.64099"
        id="text970534"
-       transform="translate(15.654176,-236.40039)"><tspan
+       transform="translate(15.654176,-212.40055)"><tspan
          x="50.876068"
          y="252.64099"
-         id="tspan638595">                  \  Test set
+         id="tspan112520">                  \  Test set
 </tspan><tspan
          x="50.876068"
          y="262.64102"
-         id="tspan638597">Training set \</tspan></text>
+         id="tspan112522">Training set \</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;inline-size:75.831;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
        x="49.571556"
        y="266.55582"
        id="text970558"
-       transform="translate(3.9574116,-211.00104)"><tspan
+       transform="translate(3.9574116,-187.0012)"><tspan
          x="49.571556"
          y="266.55582"
-         id="tspan638599">Random sampling
+         id="tspan112524">Random sampling
 </tspan><tspan
          x="49.571556"
          y="276.55585"
-         id="tspan638601">    D0
+         id="tspan112526">    D0
 </tspan></text>
     <text
        xml:space="preserve"
@@ -51916,134 +51949,163 @@
        x="46.962528"
        y="332.65125"
        id="text970562"
-       transform="translate(6.6876604,-199.75561)"><tspan
+       transform="translate(6.6876604,-175.75577)"><tspan
          x="46.962528"
          y="332.65125"
-         id="tspan638603">Segment sampling </tspan><tspan
+         id="tspan112528">Segment sampling </tspan><tspan
          x="46.962528"
          y="342.65127"
-         id="tspan638605">followed by filtering
+         id="tspan112530">followed by filtering
 </tspan><tspan
          x="46.962528"
          y="352.6513"
-         id="tspan638607">    D1</tspan></text>
+         id="tspan112532">    D1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;inline-size:102.561;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
        x="48.26704"
        y="401.35568"
        id="text970566"
-       transform="translate(5.8044993,-189.30591)"><tspan
+       transform="translate(5.8044993,-165.30607)"><tspan
          x="48.26704"
          y="401.35568"
-         id="tspan638609">Segment sampling 
+         id="tspan112534">Segment sampling 
 </tspan><tspan
          x="48.26704"
          y="411.35571"
-         id="tspan638611">without filtering
+         id="tspan112536">without filtering
 </tspan><tspan
          x="48.26704"
          y="421.35574"
-         id="tspan638613">    D2</tspan></text>
+         id="tspan112538">    D2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;inline-size:93.8133;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
        x="45.658009"
        y="471.7995"
        id="text970572"
-       transform="translate(7.3922465,-191.76325)"><tspan
+       transform="translate(7.3922465,-167.76341)"><tspan
          x="45.658009"
          y="471.7995"
-         id="tspan638615">Two combined datasets 
+         id="tspan112540">Two combined datasets 
 </tspan><tspan
          x="45.658009"
          y="481.79953"
-         id="tspan638617">    D1
+         id="tspan112542">    D1
 </tspan><tspan
          x="45.658009"
          y="491.79956"
-         id="tspan638619">     +
+         id="tspan112544">     +
 </tspan><tspan
          x="45.658009"
          y="501.79959"
-         id="tspan638621">    D2</tspan></text>
+         id="tspan112546">    D2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
-       x="189.43376"
-       y="16.523859"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
+       x="193.58511"
+       y="20.409763"
        id="text1118344"><tspan
          sodipodi:role="line"
-         style="stroke-width:0.75"
-         x="189.43376"
-         y="16.523859"
-         id="tspan1118346">T0</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
-       x="264.03055"
-       y="16.467869"
-       id="text1118352"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.75"
+         x="193.58511"
+         y="20.409763"
+         id="tspan227814">T0</tspan><tspan
          sodipodi:role="line"
-         id="tspan1118350"
-         style="stroke-width:0.75"
-         x="264.03055"
-         y="16.467869">T1</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.75"
+         x="193.58511"
+         y="30.409788"
+         id="tspan13125">(Random sampling)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
-       x="338.75897"
-       y="16.523859"
-       id="text1118356"><tspan
-         sodipodi:role="line"
-         id="tspan1118354"
-         style="stroke-width:0.75"
-         x="338.75897"
-         y="16.523859">T2</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;white-space:pre;inline-size:73.0538;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
+       x="285.41312"
+       y="26.883932"
+       id="text1118352"
+       transform="translate(-16.876785,-6.4395348)"><tspan
+         x="285.41312"
+         y="26.883932"
+         id="tspan112548">T1
+</tspan><tspan
+         x="285.41312"
+         y="36.883958"
+         id="tspan112550">(Segment sampling<tspan
+   y="36.883958"
+   id="tspan112552"> </tspan></tspan><tspan
+         x="285.41312"
+         y="46.883982"
+         id="tspan112554">followed by filtering)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
-       x="411.1376"
-       y="16.089014"
-       id="text1118360"><tspan
-         sodipodi:role="line"
-         id="tspan1118358"
-         style="stroke-width:0.75"
-         x="411.1376"
-         y="16.089014">T3</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;white-space:pre;inline-size:72.3734;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
+       x="375.44324"
+       y="13.356167"
+       id="text1118356"
+       transform="translate(-33.607042,6.9976913)"><tspan
+         x="375.44324"
+         y="13.356167"
+         id="tspan112556">T2
+</tspan><tspan
+         x="375.44324"
+         y="23.356192"
+         id="tspan112558">(Segment sampling<tspan
+   y="23.356192"
+   id="tspan112560"> </tspan></tspan><tspan
+         x="375.44324"
+         y="33.356217"
+         id="tspan112562">without filtering)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.79661;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="43.048985"
-       y="12.17547"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;white-space:pre;inline-size:84.7165;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
+       x="449.94824"
+       y="40.088829"
+       id="text1118360"
+       transform="translate(-26.999784,-19.646372)"><tspan
+         x="449.94824"
+         y="40.088829"
+         id="tspan112564">T3
+</tspan><tspan
+         x="449.94824"
+         y="50.088851"
+         id="tspan112566">(Single-cell-type GEPs,<tspan
+   y="50.088851"
+   id="tspan112568"> </tspan></tspan><tspan
+         x="449.94824"
+         y="60.088874"
+         id="tspan112570">sctGEPs)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:Arial;display:inline;fill:#000000;fill-opacity:0.79661;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
+       x="43.872242"
+       y="19.710129"
        id="text1948075"><tspan
          sodipodi:role="line"
          id="tspan1948073"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.75"
-         x="43.048985"
-         y="12.17547">a</tspan></text>
+         x="43.872242"
+         y="19.710129">a</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
        x="44.353497"
-       y="361.59396"
+       y="385.59396"
        id="text1948089"><tspan
          sodipodi:role="line"
          id="tspan1948087"
          style="stroke-width:0.75"
          x="44.353497"
-         y="361.59396">b</tspan></text>
+         y="385.59396">b</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"
        x="43.977901"
-       y="499.76599"
+       y="523.76599"
        id="text1948093"><tspan
          sodipodi:role="line"
          id="tspan1948091"
          style="stroke-width:0.75"
          x="43.977901"
-         y="499.76599">c</tspan></text>
+         y="523.76599">c</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.00002px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:none;fill:#000000;fill-opacity:0.79661;stroke-width:0.75"

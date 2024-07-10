@@ -1,0 +1,225 @@
+﻿﻿Sample,Tcell,Myeloid,CD90+ CD44+ Stroma,Treg,CD4 score,CD8 score,Classical mono,Macro,cDC1,cDC2,Gender,Race,Ethnicity,BMI,Age,T Stage,N Stage,M Stage,Grade,Histology,Tumor type,Extraction Site
+IPICRC058.T1,74.16,60.74,30.87,92.28,15.14,94.02,58.47,37.71,98.28,25,Female,White,Non His/Lat,30.04,88,3,0,0,G2,ADC,Local Recurrence,colon
+IPICRC062.T1,89.93,29.19,8.72,94.63,4.78,79.28,62.29,56.36,32.79,14.41,Female,White,Non His/Lat,30.43,86,3,0,0,G1,ADC,Primary,colon
+IPICRC089.T1,49.33,99.33,33.22,43.29,39.44,65.34,0.85,60.17,87.32,93.22,Male,White,Non His/Lat,21.47,40,NA,NA,NA,NA,BS,Primary,retroperitoneum
+IPIGYN084.T1,61.07,85.91,35.23,98.66,16.66,90.99,45.11,49.64,65.31,67.73,Female,White,Non His/Lat,26.99,75,3a,X,,G3,PSC,Primary,abdominal wall
+IPIGYN100.T1,94.63,37.58,42.62,82.38,23.48,84.52,36.44,45.34,94.37,19.07,Female,Other,His/Lat,41,53,1a,0,,G1,EA,Primary,uterus
+IPIKID027.T1,81.88,51.68,56.71,25.84,31.39,57.83,29.66,66.53,98.28,64.41,Male,White,Non His/Lat,29,79,3a,X,,G2,CCC,Primary,right kidney
+IPIKID030.T1,73.15,72.82,20.47,61.41,23.51,84.46,35.06,61.41,100,44.57,Male,Other,His/Lat,28.8,59,3a,X,,G3,CCC,Primary,right kidney
+IPIKID043.T1,88.59,77.85,0.34,8.05,66.45,42.06,29.61,73.23,89.6,41.21,Male,White,Non His/Lat,25.9,79,2a,1,,G3,PC,Primary,right kidney
+IPIKID047.T1,54.7,72.48,24.5,53.19,51.39,55.38,48.73,81.78,73.21,44.49,Female,White,Non His/Lat,22.4,73,3a,X,,GX,Other,Primary,right kidney
+IPIKID048.T1,52.68,36.91,15.77,42.28,9.96,96.41,25.22,89.17,26.31,18.67,Female,Asian,Non His/Lat,27.5,59,4,1,,G4,CCC,Primary,right kidney
+IPIKID050.T1,82.89,16.11,44.13,37.25,23.9,71.31,45.61,79.39,25.34,18.64,Male,White,Non His/Lat,22.9,94,4,X,,G3,PC,Primary,right kidney
+IPIKID051.T1,97.65,61.41,3.69,52.68,8.37,72.11,34.32,64.41,28.49,21.61,Male,White,Non His/Lat,27.3,63,3b,0,X,G4,CCC,Primary,right kidney
+IPIKID066.T1,50.67,94.63,28.52,48.32,15.54,78.49,6.78,82.2,69.74,45.34,Male,White,Non His/Lat,41,68,2a,X,,G3,CCC,Primary,right kidney
+IPIKID074.T1,50,81.88,3.02,77.52,24.7,41.43,59.75,84.75,45.84,20.34,Male,White,Non His/Lat,28,68,3a,X,,G3,CCC,Primary,right kidney
+IPIKID076.T1,67.11,94.97,5.03,80.54,22.71,51,69.92,76.69,30.03,68.64,Male,White,Non His/Lat,26,68,3a,0,,G4,CCC,Primary,right kidney
+IPIKID078.T1,65.44,92.95,12.08,68.12,1.99,96.02,10.17,98.73,47.96,27.12,Male,Asian,Non His/Lat,33,63,3a,0,,G4,CCC,Primary,right kidney
+IPIKID079.T1,77.52,93.96,40.27,57.38,22.31,85.26,68.64,54.24,72.44,11.86,Male,White,Non His/Lat,32,73,1a,X,,G1,PC,Primary,right kidney
+IPIKID083.T1,87.58,90.6,21.81,47.99,1.2,98.8,2.54,97.03,100,28.39,Male,Asian,Non His/Lat,25,42,2a,0,,G3,CCC,Primary,left kidney
+IPIKID084.T1,85.91,89.93,24.83,84.23,9.56,97.21,14.41,85.59,60.49,77.54,Female,White,Non His/Lat,41,49,2a,X,,GX,CCC,Primary,kidney
+IPIKID086.T1,78.52,88.93,11.41,83.89,31.87,88.45,76.27,74.15,71.86,16.95,Male,White,Non His/Lat,34,69,3a,0,,G3,CCC,Primary,left kidney
+IPIKID091.T1,88.26,91.95,5.37,55.37,1.59,99.6,18.64,92.8,51.43,7.63,Male,White,Non His/Lat,28,74,3a,X,,G4,CCC,Primary,right kidney
+IPIKID092.T1,93.96,61.07,46.31,91.61,0.8,99.2,16.1,95.34,81.69,5.51,Male,Other,Non His/Lat,35,64,3a,X,,G4,CCC,Primary,right kidney
+IPIKID093.T1,93.62,86.58,37.58,90.27,37.25,75.3,25.42,21.61,76.06,94.07,Female,Other,Non His/Lat,36,65,3a,0,,G3,CCC,Primary,right kidney
+IPIKID099.T1,72.82,95.64,23.15,75.5,18.73,86.85,7.2,89.83,35.21,67.8,Male,White,Non His/Lat,25,55,1a,X,,G3,CCC,Primary,left kidney
+IPIKID100.T1,94.97,61.74,8.39,32.05,2.79,98.41,4.66,91.95,100,2.97,Female,Asian,His/Lat,30,79,3b,X,,G2,CCC,Primary,right kidney
+IPIKID102.T1,76.17,97.65,17.79,79.53,15.94,95.62,23.73,88.56,69.01,34.32,Male,Other,His/Lat,29.8,60,3b,0,,G2,CCC,Primary,right kidney
+IPILUNG006.T1,44.63,85.57,28.86,71.81,62.09,37.47,40.68,52.97,100,91.53,Female,Asian,Non His/Lat,24,66,1a,0,,G2,ADC,Primary,right lung
+IPILUNG031.T1,51.17,35.57,0.67,40.6,4.38,97.73,52.75,66.69,72.83,41.01,Male,Asian,Non His/Lat,22,60,2b,2,,GX,SCC,Primary,right lung
+IPIMELB002.T1,69.46,49.66,19.46,57.05,6.37,98.01,62.71,87.29,37.35,21.19,Female,Other,Not reported,20,76,NA,NA,NA,NA,NA,Metastasis,Pancreas
+IPIBLAD005.T1,83.56,90.27,14.09,46.98,45.02,64.94,85.17,5.93,68.01,63.14,Male,White,Non Hispanic or Latino,21,77,3b,,0,G3: Poorly differentiated (high grade),C,Primary,Bladder
+IPICRC054.T1,96.98,70.81,50.67,56.04,26.69,64.14,77.97,63.56,65.31,89.41,Male,White,Non Hispanic or Latino,25.76,45,Not Available,Not Available,Not Available,Not Available,LS,,
+IPIKID057.T1,80.87,74.5,28.19,65.44,16.33,71.71,71.19,10.59,46.42,85.59,Female,Other,Non Hispanic or Latino,42,63,2b,X,,G2: Moderately differentiated (intermediate grade),CCC,Primary,left kidney
+IPIKID069.T1,97.99,41.95,25.5,66.44,0.4,100,58.05,44.07,66.27,88.14,Male,White,Non Hispanic or Latino,31,48,3a,0,,G3: Poorly differentiated (high grade),CCC,Primary,right kidney
+IPIKID071.T1,69.8,96.98,40.6,46.31,43.43,89.64,86.02,19.49,80.27,44.92,Male,White,Hispanic or Latino,31,63,3b,1,,G2: Moderately differentiated (intermediate grade),CCC,Primary,right kidney
+IPIKID077.T1,64.77,85.23,16.44,36.91,59.76,70.52,94.07,36.02,28.93,25.42,Female,White,Non Hispanic or Latino,23,87,1a,X,,G2: Moderately differentiated (intermediate grade),CCC,Primary,left kidney
+IPIKID089.T1,59.06,98.32,4.7,32.05,41.83,90.84,88.56,34.75,29.93,32.63,Female,White,Hispanic or Latino,25,79,3a,0,,G4: Undifferentiated (high grade),CCC,Primary,kidney
+IPIKID095.T1,91.95,50.67,61.07,50.34,36.65,80.48,59.32,2.12,85.92,43.64,Male,White,Non Hispanic or Latino,24,48,1a,0,,G2: Moderately differentiated (intermediate grade),CCC,Primary,right kidney
+IPIKID103.T1,87.25,84.9,19.8,61.07,20.72,92.83,78.39,42.8,16.9,55.08,Male,Asian,Non Hispanic or Latino,21,65,3a,X,,G3: Poorly differentiated (high grade),CCC,Primary,left kidney
+IPIKID104.T1,53.69,98.99,9.06,45.3,46.22,88.84,68.22,8.47,61.97,84.75,Male,Other,Hispanic or Latino,29,70,3a,X,,G2: Moderately differentiated (intermediate grade),CCC,Primary,left kidney
+IPIKID109.T1,68.79,73.83,51.34,31.21,29.48,73.31,83.05,36.86,46.48,60.17,Male,White,Non Hispanic or Latino,25,84,3a,0,,G3: Poorly differentiated (high grade),CCC,Primary,right kidney
+IPISRC011.T1,79.53,97.32,64.09,52.35,41.04,77.29,84.75,16.95,66.66,58.9,Male,White,Non Hispanic or Latino,26,75,Not Available,Not Available,Not Available,G1: Well differentiated (low grade),LMS,Metastasis,liver
+IPIBLAD026.T1,51.68,54.03,22.48,91.28,58.96,25.9,80.93,52.12,27.31,71.61,Male,Other,Non Hispanic or Latino,31,61,1,0,X,G3: Poorly differentiated (high grade),Clear Cell Adenocarcinoma NOS,Primary,Ureter
+IPICRC087.T1,62.75,39.93,71.81,95.97,62.15,5.58,25.85,9.32,39.44,99.58,Female,White,Non Hispanic or Latino,17.83,70,3,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,ascending colon
+IPICRC088.T1,29.19,21.81,10.4,70.13,86.24,27.63,30,9.17,35.43,30.94,Male,Asian,Non Hispanic or Latino,16.64,83,4a,2,1,G2: Moderately differentiated (intermediate grade),ADC,Primary,ascending colon
+IPICRC090.T1,33.89,41.61,46.64,90.6,87.6,11.73,13.14,49.15,67.61,59.75,Male,White,Non Hispanic or Latino,25.9,36,3,1b,,G2: Moderately differentiated (intermediate grade),ADC,Primary,rectum
+IPIGYN013.T1,57.38,89.6,7.38,22.48,56.97,26.69,17.8,90.68,33.36,50.85,Female,Asian,Non Hispanic or Latino,19.66,59,1,0,,G3: Poorly differentiated (high grade),CCC,Primary,ovary
+IPIKID108.T1,66.44,88.26,32.21,39.77,67.53,33.86,15.68,83.05,19.72,81.36,Male,Asian,Non Hispanic or Latino,27,54,3b,0,,G3: Poorly differentiated (high grade),PC,Primary,right kidney
+IPILUNG008.T1,18.79,72.15,34.56,56.71,72.91,22.31,30.93,62.71,26.94,80.93,Female,White,Non Hispanic or Latino,20,72,1a,0,,G1: Well differentiated (low grade),ADC,Primary,upper lobe of right lung
+IPILUNG013.T1,68.12,58.22,27.18,85.57,75.3,27.89,51.27,67.37,35.56,73.73,Male,White,Non Hispanic or Latino,22,80,1b,1,,G2: Moderately differentiated (intermediate grade),ADC,Primary,upper lobe of left lung
+IPILUNG014.T1,12.75,47.99,20.13,35.57,64.94,10.76,27.54,64.83,34.27,82.63,Female,Black or African American,Non Hispanic or Latino,20,81,1b,1,,G3: Poorly differentiated (high grade),ADC,Primary,upper lobe of left lung
+IPILUNG015.T1,54.36,63.76,32.89,85.23,88.05,32.67,7.63,61.02,25.02,92.8,Male,White,Non Hispanic or Latino,28,83,1a,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,
+IPILUNG030.T1,67.79,48.32,9.4,79.19,54.98,4.38,46.19,22.46,28.79,90.25,Female,Other,Non Hispanic or Latino,39,61,1b,0,,G3: Poorly differentiated (high grade),ADC,Primary,
+IPILUNG041.T1,79.19,32.55,4.36,88.26,68.36,28.04,30,36.81,39.09,66.05,Female,Asian,Non Hispanic or Latino,28,79,2a,2,,G2: Moderately differentiated (intermediate grade),ADC,Primary,lower lobe of right lung
+IPILUNG054.T1,36.58,54.7,22.15,53.69,91.63,3.98,22.46,25.85,35.04,99.15,Female,White,Non Hispanic or Latino,33,76,1a,X,,G2: Moderately differentiated (intermediate grade),ADC,Primary,upper lobe of right lung
+IPILUNG058.T1,34.56,78.19,21.14,64.26,96.02,16.73,36.26,46.07,28.29,100,Male,White,Non Hispanic or Latino,30,75,1b,X,,G2: Moderately differentiated (intermediate grade),ADC,Primary,upper lobe of left lung
+IPILUNG069.T1,28.52,67.45,39.6,67.11,76.49,33.07,55.51,59.32,25.02,88.56,Male,White,Non Hispanic or Latino,27,63,1b,2,,G3: Poorly differentiated (high grade),ADC,Primary,upper lobe of right lung
+IPILUNG076.T1,13.76,57.38,49.33,53.19,93.23,1.2,16.95,40.25,26.94,95.76,Female,Asian,Non Hispanic or Latino,20,59,2a,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,upper lobe of right lung
+IPILUNG080.T1,87.92,67.79,43.62,90.94,75.73,37.47,38.14,41.1,40.05,90.68,Male,Asian,Non Hispanic or Latino,25,69,2a,1,,G3: Poorly differentiated (high grade),ADC,Primary,lower lobe of right lung
+IPIMEL252.T1,55.7,30.87,14.77,69.13,69.32,8.76,12.18,10.03,58.75,48.83,Male,White,Non Hispanic or Latino,18,61,3b,3,0,Not Available,Nevi & Melanomas,Primary,right arm
+IPIMEL253.T1,46.31,66.11,17.45,60.07,63.75,24.3,13.42,26.23,92.3,25.78,Male,White,Non Hispanic or Latino,30,62,4b,X,1c,Not Available,Nevi & Melanomas,Metastasis,retroperitoneal lymph node
+IPIMEL255.T1,61.74,29.87,2.68,71.48,97.61,12.35,12.71,29.24,30.22,91.1,Male,White,Non Hispanic or Latino,36,48,4b,2,0,Not Available,Nevi & Melanomas,Metastasis,"Left axilla, sentinel lymph node"
+IPIBLAD006.T1,9.73,81.21,98.66,41.95,14.74,40.24,81.1,87.98,25.02,25.86,Male,Asian,Non Hispanic or Latino,23,65,4a,2,,G3: Poorly differentiated (high grade),Not Available,Primary,Bladder
+IPIBLAD014.T1,63.42,42.95,90.6,87.92,5.18,87.25,73.73,31.36,30.8,13.14,Male,White,Non Hispanic or Latino,21,69,2b,0,,G3: Poorly differentiated (high grade),C,Primary,Bladder
+IPIBLAD019.T1,88.93,31.54,71.14,61.91,5.98,92.43,84.55,37.07,25.02,64.6,Female,Not Reported,Not reported,31,64,3a,0,,G3: Poorly differentiated (high grade),C,Primary,Bladder
+IPIBLAD028.T1,35.91,43.29,85.23,82.89,35.46,61.35,93.64,35.17,35.04,23.31,Male,White,Non Hispanic or Latino,28,76,3b,0,,G3: Poorly differentiated (high grade),TCC,Primary,Bladder
+IPIBLAD030.T1,89.6,43.62,77.85,95.3,12.35,86.06,70.76,79.66,30.61,22.03,Male,White,Non Hispanic or Latino,27,75,3a,1,,G3: Poorly differentiated (high grade),TCC,Regional Recurrence,Bladder
+IPIBLAD034.T1,32.21,45.3,91.95,65.1,55.78,50.2,72.46,75.85,5.63,13.56,Male,Native Hawaiian or Pacific Islander,Non Hispanic or Latino,29,76,4a,2,,G3: Poorly differentiated (high grade),TCC,Primary,Bladder
+IPICRC063.T1,74.5,59.06,89.93,93.96,31.47,80.08,28.81,42.37,39.48,53.39,Male,White,Non Hispanic or Latino,20.44,83,3,0,0,G1: Well differentiated (low grade),ADC,Primary,ascending colon
+IPIGYN065.T1,40.6,65.44,78.52,60.4,34.67,85.19,64.83,85.17,31.57,10.59,Female,Native Hawaiian or Pacific Islander,Non Hispanic or Latino,55.94,59,1a,0,,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIGYN085.T1,90.94,65.77,65.1,92.95,14.34,97.61,53.39,58.9,54.13,37.71,Female,White,Hispanic or Latino,21.74,54,2a,0,,G3: Poorly differentiated (high grade),PSC,Primary,ovary
+IPIGYN086.T1,39.6,41.28,78.86,30.54,18.33,83.67,41.1,79.24,39.09,27.97,Female,Other,Not reported,28,70,1c,X,X,G1: Well differentiated (low grade),EA,Primary,ovary
+IPIGYN088.T1,20.13,57.05,96.31,45.64,48.21,76.89,81.81,43.55,33.88,57.81,Female,Asian,Non Hispanic or Latino,26,57,4,X,,G3: Poorly differentiated (high grade),C,Primary,fallopian tube
+IPIGYN105.T1,31.54,54.36,80.87,73.49,19.52,91.24,72.88,31.78,14.08,59.32,Female,White,Non Hispanic or Latino,22,62,1,0,,G3: Poorly differentiated (high grade),EA,Primary,uterus
+IPIGYN110.T1,59.73,70.13,59.73,70.64,68.92,74.1,38.56,69.07,57.75,17.37,Female,White,Non Hispanic or Latino,23,80,3a,X,1,G3: Poorly differentiated (high grade),EA,Primary,uterus
+IPIHNSC062.T1,92.62,48.66,84.23,78.86,16.73,60.56,40.25,86.86,26.37,10.17,Male,White,Non Hispanic or Latino,26.27,53,3,2,,G3: Poorly differentiated (high grade),SCC,Primary,oral Cavity
+IPIHNSC063.T1,98.32,68.79,80.54,97.99,47.81,77.69,54.24,54.66,35.81,94.49,Female,White,Non Hispanic or Latino,26.35,65,4a,3,0,G3: Poorly differentiated (high grade),SCC,Primary,oral Cavity
+IPIHNSC065.T1,31.88,45.64,73.83,82.38,31.94,78.59,18.89,92.08,72.44,41.91,Male,White,Non Hispanic or Latino,21.99,58,4a,2,,Not Available,SCC,LocalRecurrence,tongue
+IPIHNSC070.T1,63.09,32.21,86.91,94.97,46.61,49.4,96.19,6.36,37.93,1.27,Male,White,Non Hispanic or Latino,26.97,73,2,0,0,Not Available,SCC,Primary,oropharynx
+IPIHNSC076.T1,38.93,29.53,84.56,63.42,19.66,92.74,41.95,44.49,74.65,31.78,Male,White,Non Hispanic or Latino,25.1,78,X,3,0,Not Available,SCC,LocalRecurrence,cutaneous/subcutaneous mechanoreceptor cell
+IPIHNSC077.T1,84.9,66.44,94.97,88.59,37.25,62.95,33.47,65.68,66.2,15.25,Male,White,Non Hispanic or Latino,18,70,4a,0,0,G3: Poorly differentiated (high grade),SCC,LocalRecurrence,cutaneous/subcutaneous mechanoreceptor cell
+IPIKID070.T1,71.81,76.85,75.84,38.76,4.38,91.63,75,80.93,39.67,25.85,Male,White,Non Hispanic or Latino,38,73,2a,0,,G2: Moderately differentiated (intermediate grade),CCC,Primary,left kidney
+IPIKID093.T2,52.01,96.31,86.58,63.76,35.86,92.03,36.02,47.46,28.17,61.02,Female,Other,Non Hispanic or Latino,36,65,3a,0,,G3: Poorly differentiated (high grade),CCC,Primary,right kidney
+IPIKID094.T1,78.19,99.66,87.58,55.7,59.36,86.45,50,63.98,2.82,52.97,Female,White,Non Hispanic or Latino,25,41,3b,0,1,G4: Undifferentiated (high grade),CCC,Primary,right kidney
+IPILUNG081.T1,19.8,74.83,63.09,72.82,6.77,46.22,50.42,47.88,63.19,38.98,Male,Other,Non Hispanic or Latino,30,55,2a,0,,G3: Poorly differentiated (high grade),ADC,Primary,upper lobe of left lung
+IPIMEL283.T1,6.71,89.26,78.19,22.82,19.12,68.13,88.98,46.19,68.68,44.07,Male,White,Non Hispanic or Latino,33,71,4b,2a,1,Not Available,Not Available,Primary,right arm
+IPIMEL321.T1,29.53,44.63,82.89,60.74,3.59,93.63,34.75,94.07,25.02,34.75,Male,White,Non Hispanic or Latino,28,42,2b,0,X,Not Available,Not Available,,
+IPIMEL343.T1,44.3,86.24,83.22,73.15,13.94,90.44,87.71,36.44,43.66,8.05,Male,White,Non Hispanic or Latino,28,79,4b,2,0,Not Available,Not Available,Primary,right great toe
+IPISRC001.T1,38.59,70.47,99.66,39.77,3.19,75.7,46.59,54.13,40.03,27.23,Female,White,Non Hispanic or Latino,25,76,2b,X,,Not Available,S,Primary,buttock
+IPISRC003.T1,18.12,77.18,75.17,14.43,76.1,69.72,90.25,33.05,86.71,70.34,Female,White,Non Hispanic or Latino,24,69,Not Available,Not Available,Not Available,Not Available,Not Available,Primary,
+IPISRC004.T1,71.48,53.69,95.97,37.92,7.17,88.05,77.33,33.9,68.39,68.22,Female,Other,Hispanic or Latino,27,84,1,X,,Not Available,S,LocalRecurrence,leg
+IPISRC009.T1,72.48,57.72,87.25,54.7,12.75,96.81,83.9,66.95,75.14,0.42,Female,Asian,Non Hispanic or Latino,18,80,2b,X,,G2: Moderately differentiated (intermediate grade),S,Primary,left side of back
+IPISRC012.T1,48.66,95.3,92.62,85.91,33.86,82.87,66.53,37.29,33.81,85.17,Female,Asian,Non Hispanic or Latino,27,48,2a,X,,G3: Poorly differentiated (high grade),S,LocalRecurrence,leg
+IPISRC013.T1,16.11,87.92,99.33,18.79,5.58,94.42,51.69,72.46,11.27,58.47,Male,White,Non Hispanic or Latino,22,74,2b,X,,G3: Poorly differentiated (high grade),Other,Primary,leg
+IPISRC014.T1,94.3,73.15,79.87,58.72,9.16,93.23,52.12,32.63,59.15,33.05,Male,White,Non Hispanic or Latino,35,67,2b,X,,G3: Poorly differentiated (high grade),S,Metastasis,arm
+IPICRC055.T1,65.1,69.13,97.32,97.65,38.25,10.36,42.8,77.97,31.76,81.78,Female,White,Non Hispanic or Latino,29.63,81,3,1,,G2: Moderately differentiated (intermediate grade),ADC,Primary,sigmoid colon
+IPIGYN045.T1,30.87,82.55,63.42,87.25,73.96,29.66,19.49,93.64,34.08,4.66,Female,White,Non Hispanic or Latino,31.53,79,Not Available,Not Available,Not Available,G3: Poorly differentiated (high grade),PSC,Primary,uterus
+IPIGYN069.T1,71.14,55.03,72.82,76.85,61.35,22.71,1.69,70.76,31.38,30.08,Female,White,Non Hispanic or Latino,23.78,69,3,1,0,G1: Well differentiated (low grade),GST,Primary,ovary
+IPIGYN082.T1,75.5,82.89,66.78,93.62,45.62,13.15,27.97,62.29,30.28,78.81,Female,Black or African American,Non Hispanic or Latino,34.39,64,3b,X,1,G3: Poorly differentiated (high grade),PSC,Primary,uterus
+IPIGYN089.T1,56.38,91.61,68.12,80.2,92.43,12.75,4.24,96.61,38.65,37.29,Female,Other,Hispanic or Latino,52,50,1a,0,,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIHNSC050.T1,28.19,91.28,93.62,84.56,62.23,33.56,53.81,63.14,80.93,39.83,Male,White,Non Hispanic or Latino,14.31,69,4a,2,0,G2: Moderately differentiated (intermediate grade),SCC,Primary,oral Cavity
+IPIHNSC057.T1,58.05,84.23,90.27,96.98,99.2,9.96,61.44,70.34,38.51,75,Female,Black or African American,Non Hispanic or Latino,26.04,63,2,2,0,G2: Moderately differentiated (intermediate grade),SCC,Primary,oral Cavity
+IPIHNSC075.T1,76.51,79.53,97.99,99.66,94.82,11.55,62.37,54.4,57.41,70.74,Male,White,Non Hispanic or Latino,25.3,75,2,0,0,G3: Poorly differentiated (high grade),ADC,Primary,major salivary gland
+IPIKID061.T1,35.23,95.97,87.92,77.18,58.57,60.96,9.32,98.31,39.78,75.85,Male,White,Non Hispanic or Latino,21,69,4,1,,G3: Poorly differentiated (high grade),Other,Primary,right kidney
+IPIKID098.T1,44.97,87.25,74.83,76.17,48.61,59.76,1.27,88.14,53.52,56.78,Male,White,Hispanic or Latino,22,59,3a,1,,Not Available,CCC,Primary,right kidney
+IPILUNG062.T1,42.28,71.48,52.35,71.14,95.62,3.59,16.57,100,27.72,32.42,Female,White,Non Hispanic or Latino,34,73,1b,X,,G2: Moderately differentiated (intermediate grade),ADC,Primary,upper lobe of right lung
+IPILUNG074.T1,25.84,94.3,47.65,74.16,95.22,1.59,37.29,77.54,35.62,41.95,Female,Asian,Non Hispanic or Latino,23.8,57,2a,2,,G3: Poorly differentiated (high grade),ADC,Primary,upper lobe of left lung
+IPIBLAD029.T1,45.3,68.46,9.73,87.58,93.63,31.87,89.41,39.41,82.85,6.36,Male,Other,Hispanic or Latino,21,61,4a,3,,G3: Poorly differentiated (high grade),SCC,Primary,Bladder
+IPIBLAD036.T1,89.26,52.35,37.92,86.74,70.52,84.86,30.08,10.17,50.7,61.86,Male,Asian,Non Hispanic or Latino,23,73,2a,0,,G3: Poorly differentiated (high grade),TCC,Primary,Bladder
+IPICRC048.T1,57.72,21.48,58.05,77.85,52.59,52.19,55.08,45.76,29.57,57.2,Male,White,Non Hispanic or Latino,22.64,87,3,0,,G2: Moderately differentiated (intermediate grade),MA,Primary,ascending colon
+IPICRC070.T1,47.65,15.77,42.95,80.87,52.99,49.8,15.25,72.03,78.87,39.41,Female,Asian,Non Hispanic or Latino,26.35,68,3,0,0,G2: Moderately differentiated (intermediate grade),ADC,Primary,descending colon
+IPIGYN027.T1,79.87,11.07,84.9,86.74,80.88,42.63,50.04,35.75,69.36,42.73,Female,White,Non Hispanic or Latino,24.76,73,3c,1,,G3: Poorly differentiated (high grade),PSC,Primary,
+IPIGYN104.T1,76.85,38.59,45.3,62.75,73.71,79.68,48.31,38.56,22.54,66.53,Female,American Indian or Alaskan Native,Non Hispanic or Latino,29,63,3c,X,,G3: Poorly differentiated (high grade),PSC,Primary,uterus
+IPIHEP003.T1,90.27,40.94,15.44,79.87,70.12,38.65,98.73,12.29,40.07,16.1,Male,Black or African American,Non Hispanic or Latino,25,77,3a,X,,G3: Poorly differentiated (high grade),HC,Primary,liver
+IPIHEP013.T1,93.29,51.34,20.81,86.24,50.6,62.55,67.37,22.03,36.97,50,Male,Asian,Non Hispanic or Latino,26,68,1,X,,GX: Grade cannot be assessed (undetermined grade),HC,Primary,liver
+IPIHNSC030.T1,95.97,8.72,95.64,93.29,96.41,17.53,37.47,63.79,25.02,50.54,Female,Other,Hispanic or Latino,37.6,21,2,1,,G2: Moderately differentiated (intermediate grade),SCC,Primary,
+IPIHNSC056.T1,95.64,47.32,72.48,89.93,58.17,57.77,42.15,60.35,50.66,55.11,Female,White,Not reported,36.37,45,3,2,0,G2: Moderately differentiated (intermediate grade),SCC,Primary,oral Cavity
+IPIHNSC059.T1,86.24,27.85,48.32,99.33,70.14,45.16,27.42,88.51,43.52,36.87,Male,White,Non Hispanic or Latino,30.77,58,4a,2,0,G2: Moderately differentiated (intermediate grade),SCC,LocalRecurrence,left part of face
+IPIHNSC060.T1,73.49,83.22,75.5,95.64,79.88,54.98,88.14,16.53,44.3,30.93,Male,White,Non Hispanic or Latino,29.34,79,3,2,0,G2: Moderately differentiated (intermediate grade),SCC,Primary,oral Cavity
+IPIHNSC074.T1,75.84,74.16,62.75,98.32,78.49,47.81,39.41,23.73,92.96,16.53,Female,Other,Hispanic or Latino,22,78,3,3,0,G3: Poorly differentiated (high grade),SCC,Primary,oral cavity
+IPIHNSC079.T1,83.22,63.09,81.88,100,88.84,37.05,37.71,5.51,84.51,64.83,Male,White,Non Hispanic or Latino,20.91,57,4a,0,0,G1: Well differentiated (low grade),SCC,Primary,oral cavity
+IPIKID049.T1,99.33,30.54,26.51,67.45,71.31,74.9,41.42,70.53,49.89,35.62,Female,White,Hispanic or Latino,40,80,3a,X,,G3: Poorly differentiated (high grade),CCC,Primary,left kidney
+IPIKID085.T1,96.64,79.19,25.17,76.51,66.53,68.92,61.02,38.98,36.41,2.54,Male,White,Non Hispanic or Latino,34,78,3a,0,,G3: Poorly differentiated (high grade),CCC,Primary,left kidney
+IPIKID086.T2,66.11,83.56,22.82,84.9,64.82,31,83.47,55.93,48.54,22.88,Male,White,Non Hispanic or Latino,34,69,3a,0,,G3: Poorly differentiated (high grade),CCC,Primary,right kidney
+IPILUNG037.T1,80.2,17.45,54.03,73.83,79.82,24.67,46.84,54.66,83.82,100,Female,White,Non Hispanic or Latino,24,58,2a,1,,G3: Poorly differentiated (high grade),ADC,Primary,upper lobe of right lung
+IPILUNG052.T1,82.55,16.78,52.01,67.79,74.1,37.45,31.78,47.03,27.81,28.81,Female,White,Non Hispanic or Latino,24,69,2a,1,,G3: Poorly differentiated (high grade),ADC,Primary,upper lobe of right lung
+IPILUNG056.T1,70.13,8.39,29.53,83.56,60.04,41.11,26.68,93.67,59.33,42.03,Male,White,Non Hispanic or Latino,24,86,2,X,,G3: Poorly differentiated (high grade),ADC,Primary,lower lobe of left lung
+IPILUNG088.T1,97.32,50.34,41.95,96.31,63.59,52.7,20.76,29.66,98.59,13.98,Female,White,Non Hispanic or Latino,37,73,2b,2,,G2: Moderately differentiated (intermediate grade),SCC,Primary,lower lobe of left lung
+IPIMEL212.T1,98.66,10.07,61.74,65.77,90.44,53.78,27.86,20.55,55.09,47.07,Male,White,Non Hispanic or Latino,26,40,1a,3,1b,Not Available,Nevi & Melanomas,Metastasis,left axilla lymph node
+IPIMEL274.T1,91.61,28.52,18.79,54.36,66.14,56.57,33.9,39.83,85.55,72.46,Male,White,Non Hispanic or Latino,36,70,1,2,1c,Not Available,Not Available,Metastasis,left inguinal lymph node
+IPIHEP016.T1,78.86,40.6,66.11,48.66,98.01,7.17,67.05,23.59,100,59.41,Male,White,Non Hispanic or Latino,22,26,3b,1,X,Not Available,HC,Metastasis,liver
+IPILUNG030.T2,53.02,10.4,1.34,68.46,90.84,5.18,57.2,11.44,100,69.49,Female,Other,Non Hispanic or Latino,39,61,1b,,0,G3: Poorly differentiated (high grade),ADC,Primary,
+IPIMEL069.T1,60.74,24.5,1.01,22.15,77.69,13.94,47.88,5.08,58.18,97.88,Male,White,Non Hispanic or Latino,20,48,1,3,0,Not Available,Nevi & Melanomas,Metastasis,left groin
+IPIMEL273.T1,73.83,13.76,23.83,38.26,98.41,0.4,47.46,1.69,97.7,92.37,Male,White,Non Hispanic or Latino,39,33,2,2a,0,Not Available,Not Available,Metastasis,Left axilla
+IPIMEL288.T1,69.13,34.9,6.71,74.83,100,0.8,92.8,0.85,61.07,65.25,Male,Other,Hispanic or Latino,31,46,3,0,0,Not Available,Not Available,Metastasis,right axillary
+IPIMEL298.T1,62.08,44.97,34.9,58.39,98.8,19.12,87.29,0.42,100,87.71,Female,Not Reported,Non Hispanic or Latino,25,59,X,X,1b,Not Available,Not Available,Primary,Right groin soft tissue
+IPIBLAD020.T1,24.5,75.5,83.56,64.26,81.27,20.72,98.55,55.59,34.46,39.1,Female,White,Non Hispanic or Latino,20,83,4a,3,,G3: Poorly differentiated (high grade),C,Primary,Bladder
+IPICRC032.T1,19.46,97.99,46.98,23.83,45.31,54.59,63.84,18.17,32.54,84.68,Male,White,Non Hispanic or Latino,28.33,40,1,0,0,G1: Well differentiated (low grade),ADC,Primary,transverse colon
+IPICRC075.T1,26.85,46.98,42.28,69.8,40.24,23.9,84.32,38.14,7.04,31.36,Male,White,Non Hispanic or Latino,25.88,85,3,0,,G1: Well differentiated (low grade),ADC,Primary,caecum
+IPIHEP015.T1,45.97,87.58,55.54,28.52,75.32,19.55,100,53.21,25.02,62.69,Male,White,Non Hispanic or Latino,38,67,2,X,,G2: Moderately differentiated (intermediate grade),HC,Primary,liver
+IPIKID094.T2,32.89,98.66,98.99,25.5,76.89,44.62,65.25,50.85,1.41,69.07,Female,White,Non Hispanic or Latino,25,41,3b,0,1,G4: Undifferentiated (high grade),CCC,Primary,right kidney
+IPILUNG011.T1,36.91,62.42,45.64,50,61.75,43.43,84.79,45.41,27.33,56.75,Male,White,Non Hispanic or Latino,23,77,Not Available,Not Available,Not Available,Not Available,MES,Primary,pleura
+IPICRC040.T2,60.07,49.33,73.49,30.87,78.88,9.16,42.15,62.73,41.98,76.32,Female,White,Non Hispanic or Latino,22.66,68,4,0,0,G2: Moderately differentiated (intermediate grade),ADC,Regional Recurrence,right colon
+IPICRC079.T1,23.83,68.12,93.29,29.19,74.9,11.95,11.02,41.53,91.55,73.31,Male,Asian,Non Hispanic or Latino,31.77,41,2,0,,G1: Well differentiated (low grade),GST,Primary,duodenum
+IPICRC093.T1,26.17,27.18,71.48,62.42,46.67,52.57,13.56,48.73,77.46,62.71,Male,White,Non Hispanic or Latino,25.24,51,2,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,rectum
+IPIGYN003.T1,54.03,55.37,88.26,51.01,38.76,77.91,36.86,23.31,70.9,100,Female,Other,Hispanic or Latino,24,63,1a,X,,G2: Moderately differentiated (intermediate grade),EA,Primary,endometrium
+IPIGYN078.T1,34.9,47.65,65.77,66.11,69.72,31.08,19.07,49.58,51.62,86.86,Female,White,Non Hispanic or Latino,33.06,69,1b,X,,Not Available,EA,Primary,uterus
+IPIGYN087.T1,5.7,20.47,15.1,11.41,7.52,81.28,58.9,50.42,79.77,95.34,Female,White,Non Hispanic or Latino,25,41,1a,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,ovary
+IPIGYN124.T1,55.37,28.19,94.3,35.23,81.67,6.77,17.37,44.92,83.1,91.95,Female,White,Non Hispanic or Latino,24,79,3c,X,,G3: Poorly differentiated (high grade),PSC,Primary,
+IPIHNSC078.T1,7.72,5.7,65.44,9.06,38.65,56.97,32.2,43.22,71.83,76.27,Female,White,Non Hispanic or Latino,25.8,57,3,0,0,G3: Poorly differentiated (high grade),ACC,Primary,major salivary gland
+IPIKID097.T1,11.07,30.2,96.64,12.08,94.42,7.97,20.34,26.69,64.79,53.81,Female,White,Non Hispanic or Latino,26,44,3a,1,1,Not Available,Other,,left kidney
+IPILUNG021.T1,10.4,51.01,69.46,29.87,99.6,2.39,23.31,59.75,38.7,66.1,Female,Asian,Non Hispanic or Latino,27,69,1b,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,lower lobe of right lung
+IPIMEL113.T1,48.32,4.36,51.68,21.81,29.89,64.3,89.48,34.69,90.37,100,Female,White,Non Hispanic or Latino,24,91,1a,1a,0,Not Available,MCC,Metastasis,groin
+IPIMEL271.T1,27.18,90.94,76.51,9.73,97.21,3.19,38.98,41.95,42.37,29.66,Male,White,Non Hispanic or Latino,27,65,X,2,1c,Not Available,Nevi & Melanomas,Metastasis,right axilla
+IPIPDAC037.T1,20.47,78.52,96.98,59.73,84.06,21.51,39.83,61.86,34.46,78.39,Male,White,Hispanic or Latino,24,64,3,1,,G2: Moderately differentiated (intermediate grade),ADC,Primary,Pancreas
+IPIPNET014.T1,12.42,34.23,59.4,16.11,85.26,44.22,26.69,17.37,88.73,61.44,Female,Other,Non Hispanic or Latino,23,61,2,1,,G1: Well differentiated (low grade),NET,Primary,Pancreas
+IPIPNET016.T1,27.85,64.09,89.6,49.66,65.77,50.55,34.71,25.7,38.51,100,Female,White,Non Hispanic or Latino,29,59,2,0,,G1: Well differentiated (low grade),C,Primary,
+IPIBLAD033.T1,2.68,18.46,6.38,6.71,58.95,37.07,64.09,84.15,27.14,57.93,Male,White,Non Hispanic or Latino,29,62,1a,0,,G3: Poorly differentiated (high grade),TCC,Regional Recurrence,Bladder
+IPICRC067.T1,12.08,31.88,85.91,54.03,55.38,32.27,26.27,69.92,36.62,66.95,Female,White,Non Hispanic or Latino,32.49,53,1,0,0,G2: Moderately differentiated (intermediate grade),ADC,Primary,sigmoid colon
+IPICRC071.T2,14.43,45.97,74.5,41.61,49.8,14.74,25.64,75.03,27.33,35.31,Male,White,Non Hispanic or Latino,37.76,54,,0,1,G2: Moderately differentiated (intermediate grade),ADC,LocalRecurrence,
+IPICRC073.T1,20.97,33.22,85.57,74.5,70.92,30.68,13.98,80.51,25.35,54.66,Female,Other,Hispanic or Latino,24.87,50,4a,0,,GX: Grade cannot be assessed (undetermined grade),ADC,Primary,sigmoid colon
+IPICRC076.T1,13.09,15.44,70.13,42.95,56.18,17.93,19.92,58.05,4.23,96.61,Male,White,Non Hispanic or Latino,21.61,57,4b,1,,G1: Well differentiated (low grade),ADC,Primary,rectosigmoid junction
+IPICRC078.T2,22.15,9.4,21.48,11.74,11.16,25.1,45.76,73.31,38.03,40.25,Female,White,Non Hispanic or Latino,22.89,58,Not Available,Not Available,Not Available,G1: Well differentiated (low grade),NET,Primary,colon
+IPIGBM006.T1,2.35,52.01,70.81,5.54,47.01,16.33,12.29,99.15,80.28,3.39,Female,White,Non Hispanic or Latino,27.82,54,Not Available,Not Available,Not Available,G4: Undifferentiated (high grade),G,Primary,right frontal lobe
+IPIGYN015.T1,14.77,31.21,68.46,23.15,17.13,50.6,26.11,74.5,28.68,44.37,Female,Other,Non Hispanic or Latino,15.44,47,1c,0,,G2: Moderately differentiated (intermediate grade),EA,LocalRecurrence,ovary
+IPIGYN019.T1,3.36,3.02,47.32,1.01,32.27,4.78,31.7,86.93,26.5,19.65,Female,Other,Hispanic or Latino,37.4,59,3c,X,,G3: Poorly differentiated (high grade),C,Primary,ovary
+IPIGYN021.T1,17.79,12.08,30.54,37.58,100,4.58,68.06,67.49,42.17,63.82,Female,White,Non Hispanic or Latino,23.41,66,2c,1,,G3: Poorly differentiated (high grade),PSC,Primary,
+IPIGYN040.T1,24.16,59.73,76.17,27.52,29.88,64.54,28.39,97.46,28.64,27.54,Female,Other,Hispanic or Latino,41.33,66,1a,0,,G2: Moderately differentiated (intermediate grade),EA,Primary,
+IPIGYN043.T1,43.96,69.46,82.21,42.62,42.63,29.48,16.53,82.63,25.02,36.86,Female,White,Non Hispanic or Latino,50.63,38,1a,X,,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIGYN060.T1,46.64,19.13,51.01,44.3,27.09,39.44,31.36,55.51,27.72,41.53,Female,White,Non Hispanic or Latino,27.05,54,2a,0,,G3: Poorly differentiated (high grade),PSC,Primary,ovary
+IPIGYN083.T1,57.05,44.3,88.59,57.72,33.47,55.78,33.05,84.32,25.02,49.58,Female,White,Hispanic or Latino,33.62,61,1a,X,,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIGYN091.T1,1.01,7.05,33.56,4.03,54.58,15.54,42.37,68.22,47.96,79.66,Female,White,Non Hispanic or Latino,33,54,Not Available,Not Available,Not Available,G3: Poorly differentiated (high grade),MA,Metastasis,ovary
+IPIGYN093.T1,21.48,56.71,77.18,33.22,51,45.02,30.51,89.41,29.45,47.67,Female,Other,Hispanic or Latino,46,31,3a,X,,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIGYN095.T1,9.4,66.78,68.79,7.38,53.49,61.33,31.51,70,28.87,20.39,Female,Other,Non Hispanic or Latino,31,53,Not Available,Not Available,Not Available,Not Available,MA,Primary,pelvic region element
+IPIGYN098.T1,27.52,73.49,80.2,32.55,92.03,45.42,43.64,73.73,8.45,42.8,Female,White,Non Hispanic or Latino,18,56,Not Available,Not Available,Not Available,Not Available,Denuded benign cyst,Primary,uterus
+IPIGYN103.T1,17.11,43.96,92.28,28.86,82.87,34.26,8.9,80.08,49.3,54.24,Female,White,Non Hispanic or Latino,48,60,1a,0,,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIGYN106.T1,10.74,12.42,73.15,19.13,60.56,34.66,21.19,81.36,23.94,26.27,Female,White,Non Hispanic or Latino,33,60,3b,0,,G3: Poorly differentiated (high grade),EA,Primary,
+IPIGYN107.T1,42.62,71.14,89.26,29.53,33.07,60.16,8.05,97.88,32.39,63.98,Female,Other,Hispanic or Latino,25,39,2,X,,G3: Poorly differentiated (high grade),C,Primary,uterus
+IPIGYN108.T1,11.74,38.93,58.39,33.89,21.91,20.32,57.63,53.81,18.31,75.42,Female,White,Non Hispanic or Latino,27,70,1a,0,,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIGYN116.T1,11.41,23.15,66.44,17.28,82.47,48.21,35.59,74.58,54.93,6.78,Female,American Indian or Alaskan Native,Non Hispanic or Latino,32,69,2a,0,,G3: Poorly differentiated (high grade),OSC,Primary,fallopian tube
+IPIGYN125.T1,16.78,46.31,92.95,34.23,25.9,47.01,2.97,78.81,73.24,83.47,Female,White,Non Hispanic or Latino,41,62,1b,1,0,G1: Well differentiated (low grade),EA,Primary,uterus
+IPIHNSC069.T1,4.19,22.48,70.47,8.39,84.46,51.39,14.83,86.02,25.02,49.15,Male,Asian,Non Hispanic or Latino,37.66,47,2,0,0,G3: Poorly differentiated (high grade),ADC,Primary,major salivary gland
+IPIKID062.T1,19.13,88.59,53.02,23.49,37.85,46.61,2.12,96.19,35.79,15.68,Male,White,Non Hispanic or Latino,30,66,3a,X,,G3: Poorly differentiated (high grade),CCC,Primary,right kidney
+IPIKID067.T1,39.26,75.84,41.28,43.96,42.23,61.75,5.51,99.58,25.36,0.85,Female,White,Hispanic or Latino,27,80,3a,0,,GX: Grade cannot be assessed (undetermined grade),CCC,Primary,right kidney
+IPIKID073.T1,1.34,7.38,62.08,5.03,82.96,19.55,58.42,74.89,25.02,49.96,Male,White,Non Hispanic or Latino,30,60,1a,0,,G1: Well differentiated (low grade),PC,Primary,left kidney
+IPIKID110.T1,7.05,60.07,37.25,3.36,19.92,37.85,29.24,91.1,47.89,40.68,Male,White,Non Hispanic or Latino,24,72,2b,1,,G4: Undifferentiated (high grade),Other,Primary,right kidney
+IPILUNG049.T1,58.72,6.71,67.11,27.18,87.25,17.13,25.35,96.05,60.3,41.01,Male,Asian,Non Hispanic or Latino,27,55,3,2,,Not Available,MES,Primary,left lung
+IPILUNG055.T1,24.83,0.34,13.09,12.42,45.62,49,16.25,69.15,25.02,27.03,Female,White,Non Hispanic or Latino,29,70,1b,0,,G3: Poorly differentiated (high grade),SC,LocalRecurrence,lower lobe of left lung
+IPIBLAD013.T1,15.44,24.83,90.94,59.4,54.18,58.96,79.24,15.25,29.06,52.54,Male,White,Not reported,26,60,4a,0,,G3: Poorly differentiated (high grade),C,Primary,
+IPIBLAD024.T1,41.95,25.84,26.17,48.99,25.5,76.1,83.07,13.66,32.92,23.6,Female,Asian,Non Hispanic or Latino,28,77,3a,X,,G3: Poorly differentiated (high grade),C,Primary,Ureter
+IPICRC035.T1,6.04,2.01,38.59,15.44,72.11,5.98,64.83,25.7,29.06,34.37,Male,White,Non Hispanic or Latino,31.31,39,3,1c,,G1: Well differentiated (low grade),ADC,Primary,rectum
+IPICRC057.T1,25.5,46.64,3.36,25.17,62.09,55.13,93.67,21.81,46.22,20.94,Male,Other,Hispanic or Latino,31.28,64,4a,2,0,G1: Well differentiated (low grade),ADC,Primary,
+IPICRC064.T1,70.47,23.83,12.75,83.22,11.95,48.61,76.69,14.41,72.25,19.92,Female,White,Non Hispanic or Latino,25.75,74,3,0,0,G3: Poorly differentiated (high grade),ADC,Primary,transverse colon
+IPICRC072.T1,38.26,42.62,40.94,52.01,3.98,89.24,75.85,20.34,30.99,24.58,Female,White,Non Hispanic or Latino,34.2,68,3,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,caecum
+IPICRC074.T1,20.97,20.13,67.79,49.33,34.66,39.04,64.41,48.31,42.25,11.02,Female,Other,Hispanic or Latino,31.7,34,3,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,caecum
+IPICRC077.T1,50.34,19.8,16.11,78.52,8.76,84.06,63.98,2.97,56.34,18.64,Male,Asian,Non Hispanic or Latino,31.94,69,2,1,,G2: Moderately differentiated (intermediate grade),ADC,Primary,transverse colon
+IPICRC080.T1,15.1,14.09,11.07,38.76,23.11,69.32,66.1,25,45.07,2.12,Female,White,Non Hispanic or Latino,32.77,91,3,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,caecum
+IPIGYN011.T1,7.38,4.03,31.54,2.68,24.3,43.82,77.33,27.12,27.64,48.31,Female,Other,Hispanic or Latino,30.3,36,3,X,,G3: Poorly differentiated (high grade),EA,Primary,ovary
+IPIGYN011.T2,6.38,7.72,45.97,3.69,27.89,23.11,86.44,28.39,33.23,35.59,Female,Other,Hispanic or Latino,30.3,36,3,X,,G3: Poorly differentiated (high grade),EA,Primary,ovary
+IPIGYN018.T2,64.43,5.37,31.88,34.9,53.49,62.68,94.65,43.29,33.11,30.78,Female,White,Non Hispanic or Latino,39.03,61,3c,1,,G3: Poorly differentiated (high grade),C,Primary,ovary
+IPIGYN109.T1,22.82,37.92,88.93,44.63,86.06,76.49,69.49,33.47,33.8,7.2,Female,White,Non Hispanic or Latino,22.82,57,3c,1,X,G3: Poorly differentiated (high grade),PSC,Primary,pelvic region element
+IPIHEP001.T1,26.51,26.51,33.89,41.28,78.05,31.68,88.74,34.3,25.02,16.57,Female,White,Non Hispanic or Latino,23,66,1,0,,G2: Moderately differentiated (intermediate grade),CHO,Primary,gall bladder
+IPIHEP017.T1,34.23,42.28,64.43,47.32,62.95,58.17,72.03,6.78,44.49,86.44,Male,White,Non Hispanic or Latino,25,70,4,0,,G3: Poorly differentiated (high grade),ADC,Primary,
+IPIHNSC061.T1,8.05,4.7,79.19,26.51,62.55,41.04,94.49,21.19,33.5,14.83,Male,Asian,Non Hispanic or Latino,19.35,67,4a,2,0,G2: Moderately differentiated (intermediate grade),SCC,Primary,larynx
+IPIHNSC073.T1,15.77,15.1,32.55,64.77,28.69,66.93,73.31,27.97,38.32,51.27,Female,White,Not reported,24.95,69,4a,3,0,Not Available,SCC,LocalRecurrence,oral cavity
+IPIKID060.T1,37.58,62.08,29.19,11.07,77.29,35.06,70.34,17.8,59.53,9.32,Male,Other,Hispanic or Latino,20,78,1b,X,,G3: Poorly differentiated (high grade),CCC,Primary,right kidney
+IPIKID106.T1,67.45,23.49,57.05,10.07,83.67,41.83,84.3,57.04,37.74,27.85,Male,White,Non Hispanic or Latino,21,65,3a,0,1,G2: Moderately differentiated (intermediate grade),CCC,Primary,left kidney
+IPILUNG009.T1,28.86,20.81,52.68,20.47,68.13,28.69,54.66,22.88,32.15,83.9,Male,White,Non Hispanic or Latino,34,73,2a,0,,G3: Poorly differentiated (high grade),ADC,Primary,lower lobe of left lung
+IPILUNG051.T1,41.61,9.06,36.58,61.91,51.79,39.84,97.88,7.63,55.28,24.15,Female,White,Non Hispanic or Latino,19,59,1a,0,,G2: Moderately differentiated (intermediate grade),ADC,Primary,lower lobe of left lung
+IPIMEL056.T1,84.23,28.86,2.01,0.34,2.02,100,82.58,16.58,86.13,24.88,Male,White,Non Hispanic or Latino,28,41,4b,3,1,Not Available,Nevi & Melanomas,Metastasis,left axillary sentinel lymph node
+IPIMEL105.T2,62.42,8.05,64.77,13.76,94.15,15.91,66.06,9.17,40.44,48.59,Male,White,Non Hispanic or Latino,30,69,X,3,,Not Available,Nevi & Melanomas,Metastasis,Left axillary sentinel lymph node
+IPIMEL208.T1,53.36,33.89,12.42,58.05,56.22,59.98,64.09,9.17,47.57,76.01,Female,White,Non Hispanic or Latino,14,59,1,0,0,Not Available,Other,Primary,Spleen
+IPIMEL221.T1,99.66,14.43,18.46,36.58,10.76,94.82,91.1,7.2,100,50.42,Female,White,Non Hispanic or Latino,38,73,4b,0,0,Not Available,Nevi & Melanomas,Primary,scalp
+IPIMEL348.T1,29.87,34.56,55.54,24.83,79.88,70.92,80.08,27.54,9.86,98.31,Female,White,Non Hispanic or Latino,29,67,X,1b,0,G1: Well differentiated (low grade),Not Available,Primary,Left groin extranodal
+IPIMEL353.T1,37.92,25.17,5.7,19.46,44.62,78.88,67.8,1.27,95.77,12.71,Male,White,Non Hispanic or Latino,36,69,4a,2,1c,Not Available,Not Available,Primary,scalp
+IPIPNET005.T1,5.37,18.79,23.49,6.04,91.24,11.16,99.15,4.24,25.02,26.69,Male,White,Non Hispanic or Latino,32,33,2,1,,G1: Well differentiated (low grade),NET,Primary,Pancreas
+IPIPNET009.T1,18.46,39.26,57.38,18.46,96.81,9.56,93.22,4.66,40.75,74.58,Female,Black or African American,Non Hispanic or Latino,32,39,2,0,,G1: Well differentiated (low grade),NET,Primary,Pancreas
+IPIPNET010.T1,0.34,6.38,41.61,2.35,38.49,84.25,100,13.29,25.12,34.37,Female,White,Non Hispanic or Latino,22,65,3,0,,G1: Well differentiated (low grade),NET,Primary,Pancreas
+IPIGYN059.T1,16.44,37.25,53.36,13.09,47.41,66.14,86.86,65.25,25.02,33.9,Female,White,Non Hispanic or Latino,42.67,54,1c,X,,G2: Moderately differentiated (intermediate grade),EA,Primary,ovary
+IPIGYN096.T1,2.01,11.41,67.45,5.54,15.98,94.9,44.92,75,40.85,38.56,Female,Other,Hispanic or Latino,42,70,3a,X,1,G3: Poorly differentiated (high grade),PSC,Primary,uterus
+IPIGYN099.T1,4.7,3.36,56.38,9.4,7.57,87.65,18.22,90.25,21.13,79.24,Female,Other,Non Hispanic or Latino,25,55,1b,0,,G1: Well differentiated (low grade),EA,Primary,
+IPIHNSC021.T1,37.25,24.16,91.28,24.5,22.52,71.85,35.57,95.12,34.08,38.44,Female,White,Not reported,20.27,42,4b,X,0,G3: Poorly differentiated (high grade),SCC,Primary,paranasal sinus
+IPIHNSC024.T1,1.68,3.69,83.89,4.7,15.29,87.62,40.43,100,32.34,67.34,Female,White,Non Hispanic or Latino,25.2,74,4a,X,,G3: Poorly differentiated (high grade),Other,Primary,nasal cavity
+IPIMELB003.T1,21.81,11.74,48.66,14.77,27.49,95.22,52.97,83.47,37.35,1.69,Male,,,,,,,,,,,
+IPISRC015.T1,8.39,10.74,86.24,3.02,31.66,84.25,49.08,72.38,25.02,28.36,Male,Black or African American,Non Hispanic or Latino,46,40,2a,1,1,G3: Poorly differentiated (high grade),S,Metastasis,inguinal part of abdomen
