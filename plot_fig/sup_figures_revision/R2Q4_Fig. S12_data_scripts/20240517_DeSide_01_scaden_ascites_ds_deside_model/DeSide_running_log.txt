@@ -1,0 +1,27 @@
+---->>> Step2: Training model on dataset ascite_scaden... <<<----
+Fri May 17 21:27:08 2024
+
+---->>> Start to training model... <<<----
+Fri May 17 21:27:08 2024
+
+---->>> Start to reading training set... <<<----
+Fri May 17 21:27:08 2024
+
+---->>> Training done. <<<----
+Fri May 17 21:45:16 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Fri May 17 21:45:16 2024
+
+---->>> All Done! <<<----
+Fri May 17 21:54:56 2024
+
+---->>> Step2: Training model on dataset ascite_scaden... <<<----
+Sun Jun  9 20:29:33 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Sun Jun  9 20:29:33 2024
+
+---->>> All Done! <<<----
+Sun Jun  9 20:31:35 2024
+

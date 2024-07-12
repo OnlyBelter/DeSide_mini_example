@@ -1,0 +1,30 @@
+---->>> Step1: simulating bulk cell expression profiles... <<<----
+Wed May 29 11:38:45 2024
+
+---->>> Generating dataset SCT_POS_N10K_hcc... <<<----
+Wed May 29 11:38:45 2024
+
+---->>> Generating dataset Mixed_N100K_segment_without_filtering_hcc... <<<----
+Wed May 29 11:38:45 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_without_filtering_hcc... <<<----
+Wed May 29 11:38:45 2024
+
+---->>> Start to training model... <<<----
+Wed May 29 11:38:45 2024
+
+---->>> Start to reading training set... <<<----
+Wed May 29 11:38:45 2024
+
+---->>> Training done. <<<----
+Wed May 29 13:43:15 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Wed May 29 13:43:16 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Wed May 29 13:45:45 2024
+
+---->>> All Done! <<<----
+Wed May 29 14:04:15 2024
+

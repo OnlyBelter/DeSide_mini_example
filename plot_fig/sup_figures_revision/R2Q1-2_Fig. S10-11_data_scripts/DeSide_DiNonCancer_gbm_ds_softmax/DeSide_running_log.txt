@@ -1,0 +1,111 @@
+---->>> Step1: simulating bulk cell expression profiles... <<<----
+Mon May 27 10:37:12 2024
+
+---->>> Generating dataset SCT_POS_N10K_gbm... <<<----
+Mon May 27 10:37:12 2024
+
+---->>> Generating dataset Mixed_N100K_segment_without_filtering_gbm... <<<----
+Mon May 27 19:03:55 2024
+
+---->>> <class 'deside.simulation.generate_data.BulkGEPGenerator'>:
+{
+  "simu_bulk_dir": "./datasets/simulated_bulk_cell_only_gbm_cancer_cells/segment_11ds_no_filtering_n_base100_median_gep",
+  "cell_type_used": [
+    "B Cells",
+    "CD4 T",
+    "CD8 T",
+    "DC",
+    "Endothelial Cells",
+    "Cancer Cells",
+    "Fibroblasts",
+    "Macrophages",
+    "Mast Cells",
+    "NK",
+    "Neutrophils",
+    "Double-neg-like T",
+    "Monocytes"
+  ],
+  "cell_subtype_used": [
+    "Non-plasma B cells",
+    "Plasma B cells",
+    "CD8 T (GZMK high)",
+    "CD8 T effector",
+    "CAFs",
+    "Myofibroblasts"
+  ],
+  "sc_dataset_used": [
+    "hnscc_cillo_01",
+    "pdac_peng_02",
+    "hnscc_puram_03",
+    "pdac_steele_04",
+    "luad_kim_05",
+    "nsclc_guo_06",
+    "prad_cheng_08",
+    "prad_dong_09",
+    "hcc_sun_10",
+    "gbm_neftel_11",
+    "gbm_abdelfattah_12"
+  ],
+  "bulk_dataset_name": "Mixed_N100K_segment_without_filtering_gbm",
+  "n_samples": 100000,
+  "generated_bulk_gep_counter": 100000,
+  "n_round": 100,
+  "total_cell_number": 1,
+  "q_dis_nn_ref_upper": 0,
+  "q_dis_nn_ref_lower": 0,
+  "filtering_quantile_upper": 0.95,
+  "filtering_quantile_lower": 0,
+  "generated_cell_fraction_fp": "./datasets/simulated_bulk_cell_only_gbm_cancer_cells/segment_11ds_no_filtering_n_base100_median_gep/generated_frac_Mixed_N100K_segment_without_filtering_gbm.csv",
+  "ref_neighbor_counter_fp": "./datasets/simulated_bulk_cell_only_gbm_cancer_cells/segment_11ds_no_filtering_n_base100_median_gep/ref2n_neighbors_Mixed_N100K_segment_without_filtering_gbm.csv",
+  "generated_bulk_gep_csv_fp": "./datasets/simulated_bulk_cell_only_gbm_cancer_cells/segment_11ds_no_filtering_n_base100_median_gep/simu_bulk_exp_Mixed_N100K_segment_without_filtering_gbm_log2cpm1p.csv",
+  "sampled_sc_cell_id_file_path": "./datasets/simulated_bulk_cell_only_gbm_cancer_cells/segment_11ds_no_filtering_n_base100_median_gep/simu_bulk_exp_Mixed_N100K_segment_without_filtering_gbm_sampled_sc_cell_id.csv",
+  "generated_bulk_gep_fp": "./datasets/simulated_bulk_cell_only_gbm_cancer_cells/segment_11ds_no_filtering_n_base100_median_gep/simu_bulk_exp_Mixed_N100K_segment_without_filtering_gbm_log2cpm1p.h5ad",
+  "n_neighbors_each_ref": 1,
+  "zero_ratio_threshold": 0.97,
+  "sct_dataset_file_path": "./datasets/generated_sc_dataset_11ds_n_base100_all_subtypes/simu_bulk_exp_SCT_POS_N10K_gbm_log2cpm1p.h5ad",
+  "sc_dataset_gep_type": "log_space",
+  "tcga2cancer_type_file_path": "./datasets/TCGA/tpm/tcga_sample_id2cancer_type.csv",
+  "subtype_col_name": "cell_type",
+  "cell_type_col_name": "cell_type"
+} <<<----
+Mon May 27 23:51:42 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_without_filtering_gbm... <<<----
+Mon May 27 23:51:42 2024
+
+---->>> Start to training model... <<<----
+Mon May 27 23:51:42 2024
+
+---->>> Start to reading training set... <<<----
+Mon May 27 23:51:42 2024
+
+---->>> Step1: simulating bulk cell expression profiles... <<<----
+Tue May 28 10:00:01 2024
+
+---->>> Generating dataset SCT_POS_N10K_gbm... <<<----
+Tue May 28 10:00:01 2024
+
+---->>> Generating dataset Mixed_N100K_segment_without_filtering_gbm... <<<----
+Tue May 28 10:00:01 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_without_filtering_gbm... <<<----
+Tue May 28 10:00:01 2024
+
+---->>> Start to training model... <<<----
+Tue May 28 10:00:01 2024
+
+---->>> Start to reading training set... <<<----
+Tue May 28 10:00:01 2024
+
+---->>> Training done. <<<----
+Tue May 28 12:46:15 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Tue May 28 12:46:18 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Tue May 28 12:49:10 2024
+
+---->>> All Done! <<<----
+Tue May 28 13:11:19 2024
+
