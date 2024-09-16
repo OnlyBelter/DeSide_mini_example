@@ -1,0 +1,150 @@
+---->>> Step1: simulating bulk cell expression profiles... <<<----
+Thu Jul  4 11:26:20 2024
+
+---->>> Generating dataset Mixed_N100K_segment_without_filtering... <<<----
+Thu Jul  4 11:26:20 2024
+
+---->>> <class 'deside.simulation.generate_data.BulkGEPGenerator'>:
+{
+  "simu_bulk_dir": "./datasets/simulated_bulk_cell_7_cell_types/segment_12ds_no_filtering_n_base100_median_gep",
+  "cell_type_used": [
+    "B Cells",
+    "CD4 T",
+    "CD8 T",
+    "Cancer Cells",
+    "Fibroblasts",
+    "Macrophages",
+    "Endothelial Cells"
+  ],
+  "cell_subtype_used": [],
+  "sc_dataset_used": [
+    "hnscc_cillo_01",
+    "pdac_peng_02",
+    "hnscc_puram_03",
+    "pdac_steele_04",
+    "luad_kim_05",
+    "nsclc_guo_06",
+    "pan_cancer_07",
+    "prad_cheng_08",
+    "prad_dong_09",
+    "hcc_sun_10",
+    "gbm_neftel_11",
+    "gbm_abdelfattah_12"
+  ],
+  "bulk_dataset_name": "Mixed_N100K_segment_without_filtering",
+  "n_samples": 100000,
+  "generated_bulk_gep_counter": 100000,
+  "n_round": 100,
+  "total_cell_number": 1,
+  "q_dis_nn_ref_upper": 0,
+  "q_dis_nn_ref_lower": 0,
+  "filtering_quantile_upper": 0.95,
+  "filtering_quantile_lower": 0,
+  "generated_cell_fraction_fp": "./datasets/simulated_bulk_cell_7_cell_types/segment_12ds_no_filtering_n_base100_median_gep/generated_frac_Mixed_N100K_segment_without_filtering.csv",
+  "ref_neighbor_counter_fp": "./datasets/simulated_bulk_cell_7_cell_types/segment_12ds_no_filtering_n_base100_median_gep/ref2n_neighbors_Mixed_N100K_segment_without_filtering.csv",
+  "generated_bulk_gep_csv_fp": "./datasets/simulated_bulk_cell_7_cell_types/segment_12ds_no_filtering_n_base100_median_gep/simu_bulk_exp_Mixed_N100K_segment_without_filtering_log2cpm1p.csv",
+  "sampled_sc_cell_id_file_path": "./datasets/simulated_bulk_cell_7_cell_types/segment_12ds_no_filtering_n_base100_median_gep/simu_bulk_exp_Mixed_N100K_segment_without_filtering_sampled_sc_cell_id.csv",
+  "generated_bulk_gep_fp": "./datasets/simulated_bulk_cell_7_cell_types/segment_12ds_no_filtering_n_base100_median_gep/simu_bulk_exp_Mixed_N100K_segment_without_filtering_log2cpm1p.h5ad",
+  "n_neighbors_each_ref": 1,
+  "zero_ratio_threshold": 0.97,
+  "sct_dataset_file_path": "./datasets/generated_sc_dataset_12ds_n_base100_all_subtypes/simu_bulk_exp_SCT_POS_N10K_log2cpm1p.h5ad",
+  "sc_dataset_gep_type": "log_space",
+  "tcga2cancer_type_file_path": "./datasets/TCGA/tpm/tcga_sample_id2cancer_type.csv",
+  "subtype_col_name": "cell_type",
+  "cell_type_col_name": "cell_type"
+} <<<----
+Thu Jul  4 14:42:15 2024
+
+---->>> Generating dataset Mixed_N100K_random... <<<----
+Thu Jul  4 14:42:15 2024
+
+---->>> <class 'deside.simulation.generate_data.BulkGEPGenerator'>:
+{
+  "simu_bulk_dir": "./datasets/simulated_bulk_cell_7_cell_types/random_12ds_n_base100",
+  "cell_type_used": [
+    "B Cells",
+    "CD4 T",
+    "CD8 T",
+    "Cancer Cells",
+    "Fibroblasts",
+    "Macrophages",
+    "Endothelial Cells"
+  ],
+  "cell_subtype_used": [],
+  "sc_dataset_used": [
+    "hnscc_cillo_01",
+    "pdac_peng_02",
+    "hnscc_puram_03",
+    "pdac_steele_04",
+    "luad_kim_05",
+    "nsclc_guo_06",
+    "pan_cancer_07",
+    "prad_cheng_08",
+    "prad_dong_09",
+    "hcc_sun_10",
+    "gbm_neftel_11",
+    "gbm_abdelfattah_12"
+  ],
+  "bulk_dataset_name": "Mixed_N100K_random",
+  "n_samples": 100000,
+  "generated_bulk_gep_counter": 100000,
+  "n_round": 100,
+  "total_cell_number": 1,
+  "q_dis_nn_ref_upper": 0,
+  "q_dis_nn_ref_lower": 0,
+  "filtering_quantile_upper": 0.95,
+  "filtering_quantile_lower": 0,
+  "generated_cell_fraction_fp": "./datasets/simulated_bulk_cell_7_cell_types/random_12ds_n_base100/generated_frac_Mixed_N100K_random.csv",
+  "ref_neighbor_counter_fp": "./datasets/simulated_bulk_cell_7_cell_types/random_12ds_n_base100/ref2n_neighbors_Mixed_N100K_random.csv",
+  "generated_bulk_gep_csv_fp": "./datasets/simulated_bulk_cell_7_cell_types/random_12ds_n_base100/simu_bulk_exp_Mixed_N100K_random_log2cpm1p.csv",
+  "sampled_sc_cell_id_file_path": "./datasets/simulated_bulk_cell_7_cell_types/random_12ds_n_base100/simu_bulk_exp_Mixed_N100K_random_sampled_sc_cell_id.csv",
+  "generated_bulk_gep_fp": "./datasets/simulated_bulk_cell_7_cell_types/random_12ds_n_base100/simu_bulk_exp_Mixed_N100K_random_log2cpm1p.h5ad",
+  "n_neighbors_each_ref": 1,
+  "zero_ratio_threshold": 0.97,
+  "sct_dataset_file_path": "./datasets/generated_sc_dataset_12ds_n_base100_all_subtypes/simu_bulk_exp_SCT_POS_N10K_log2cpm1p.h5ad",
+  "sc_dataset_gep_type": "log_space",
+  "tcga2cancer_type_file_path": "./datasets/TCGA/tpm/tcga_sample_id2cancer_type.csv",
+  "subtype_col_name": "cell_type",
+  "cell_type_col_name": "cell_type"
+} <<<----
+Thu Jul  4 18:04:07 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_random... <<<----
+Thu Jul  4 18:04:07 2024
+
+---->>> Start to training model... <<<----
+Thu Jul  4 18:04:07 2024
+
+---->>> Start to reading training set... <<<----
+Thu Jul  4 18:04:07 2024
+
+---->>> Training done. <<<----
+Thu Jul  4 19:13:33 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Thu Jul  4 19:13:36 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Thu Jul  4 19:15:15 2024
+
+---->>> Step2: Training model on dataset Mixed_N100K_segment_without_filtering... <<<----
+Thu Jul  4 19:35:54 2024
+
+---->>> Start to training model... <<<----
+Thu Jul  4 19:35:54 2024
+
+---->>> Start to reading training set... <<<----
+Thu Jul  4 19:35:54 2024
+
+---->>> Training done. <<<----
+Thu Jul  4 20:53:44 2024
+
+---->>> Step3: Predicting cell fractions of test set and evaluation... <<<----
+Thu Jul  4 20:53:47 2024
+
+---->>> Step 4: Predict cell fraction of TCGA... <<<----
+Thu Jul  4 20:55:23 2024
+
+---->>> All Done! <<<----
+Thu Jul  4 21:15:46 2024
+
