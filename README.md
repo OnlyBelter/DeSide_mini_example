@@ -1,31 +1,117 @@
 # DeSide_mini_example
 Minimal examples demonstrating the usage of DeSide
 
-#### Folder structure of `DeSide_mini_example`:
+## Getting Started
+### 1. Clone the Repository
+```bash
+# Using SSH
+git clone git@github.com:OnlyBelter/DeSide_mini_example.git
+# Or using HTTPS
+git clone https://github.com/OnlyBelter/DeSide_mini_example.git
+
+cd DeSide_mini_example
+```
+
+### 2. Environment Setup
+```bash
+# Create and activate a new conda environment (recommended)
+conda create -n deside python=3.8
+conda activate deside
+
+# Install JupyterLab
+pip install jupyterlab
+
+# Install DeSide package
+pip install deside
+
+# Start JupyterLab
+jupyter lab
+```
+
+### 3. Download Required Files
+Before running the examples, download the following required files:
+
+1. Pre-trained model (Example 1):
+   - Download [`model_DeSide.h5`](https://doi.org/10.6084/m9.figshare.25117862.v1) (~100MB)
+   - Place in `DeSide_model/` directory
+
+2. Dataset files (Examples 2 and 3):
+   - Download the following files and place them in appropriate locations under `datasets/`:
+     - [`simu_bulk_exp_Mixed_N100K_D1.h5ad`](https://doi.org/10.6084/m9.figshare.23047391.v2) (~2.2GB) (Example 2)
+     - [`simu_bulk_exp_SCT_N10K_S1_16sct.h5ad`](https://doi.org/10.6084/m9.figshare.23043560.v2) (~7GB) (Example 3)
+     - [`merged_tpm.csv`](https://doi.org/10.6084/m9.figshare.23047547.v2) (~300MB) (Example 3)
+
+
+### Project Structure
 ```text
 DeSide_mini_example
-├── DeSide_model  # the pre-trained model, one large file need to be downloaded separately
+├── DeSide_model  # Pre-trained model directory
 ├── E1 - Using pre-trained model.ipynb
 ├── E2 - Training a model from scratch.ipynb
 ├── E3 - Synthesizing bulk tumors.ipynb
 ├── LICENSE
 ├── README.md
-├── datasets  # three large files need to be downloaded separately
-├── results   # the results of the three examples
-├── plot_fig  # the figures and relevant data in the manuscript
-├── main_workflow_demo.py  # the main workflow of the manuscript, only for achieving the code
-└── single_cell_dataset_integration  # the single-cell dataset used in the manuscript
+├── datasets  # Dataset directory
+├── results   # Results from examples
+├── plot_fig  # Figures and relevant data in the manuscript
+├── main_workflow_demo.py  # Main workflow code from manuscript
+└── single_cell_dataset_integration  # Single-cell dataset used in the manuscript
 ```
 
-### Dependencies
-- `DeSide` is needed to reproduce the results. Please find the installation instructions about [DeSide](https://github.com/OnlyBelter/DeSide).
+## Example 1: Using Pre-trained model
+This example demonstrates how to use the pre-trained model to predict cell type proportions in a new dataset.
 
-- Three files larger than 100MB in the `datasets` folder are not uploaded to GitHub. Please download and unzip them to the right place.
-  - `simu_bulk_exp_Mixed_N100K_D1.h5ad`: the synthesized bulk gene expression profiles (GEPs) after filtering (Dataset D1), which is used in the `example 2` as the training dataset. [Download link](https://doi.org/10.6084/m9.figshare.23047391.v2) (~2.2G)
-  - `simu_bulk_exp_SCT_N10K_S1_16sct.h5ad`: the synthesized single-cell-type GEPs (sctGEPs, Dataset S1), which is used in the `example 3` as the source of single-cell GEPs for simulation. [Download link](https://doi.org/10.6084/m9.figshare.23043560.v2) (~7G)
-  - `merged_tpm.csv`: gene expression profiles of 19 cancer types in TCGA (TPM format), which is used as the reference dataset to guild the filtering steps in the `example 3`. [Download link](https://doi.org/10.6084/m9.figshare.23047547.v2) (~300M)
+### Required Files
+- Pre-trained model file: `DeSide_model/model_DeSide.h5` (~100MB)
+  - [Download Link](https://doi.org/10.6084/m9.figshare.25117862.v1)
 
-#### Folder structure of `datasets`:
+### Model Directory Structure
+```text
+DeSide_model
+├── celltypes.txt
+├── genes.txt
+├── genes_for_gep.txt
+├── genes_for_pathway_profile.txt
+├── history_reg.csv
+├── key_params.txt
+├── loss.png
+└── model_DeSide.h5  # Download required
+```
+
+### Tutorial
+- See [E1 - Using pre-trained model.ipynb](https://github.com/OnlyBelter/DeSide_mini_example/blob/main/E1%20-%20Using%20pre-trained%20model.ipynb)
+
+
+## Example 2: Training a Model from Scratch
+Learn how to train a DeSide model using synthesized bulk GEP dataset.
+### Tutorial
+- See [E2 - Training a model from scratch.ipynb](https://github.com/OnlyBelter/DeSide_mini_example/blob/main/E2%20-%20Training%20a%20model%20from%20scratch.ipynb)
+
+### Required File
+- Dataset D1: `simu_bulk_exp_Mixed_N100K_D1.h5ad` (~2.2GB)
+   - Synthesized bulk gene expression profiles (Dataset D1)
+   - Used in Example 2 as training dataset
+   - [Download Link](https://doi.org/10.6084/m9.figshare.23047391.v2)
+   - Place in `datasets/simulated_bulk_cell_dataset/` directory
+
+## Example 3: Synthesizing Bulk Tumors
+Demonstrate the process of synthesizing bulk tumors using DeSide.
+### Tutorial
+- See: [E3 - Synthesizing bulk tumors.ipynb](https://github.com/OnlyBelter/DeSide_mini_example/blob/main/E3%20-%20Synthesizing%20bulk%20tumors.ipynb)
+
+### Required Files
+- Dataset S1: `simu_bulk_exp_SCT_N10K_S1_16sct.h5ad` (~7GB)
+   - Synthesized single-cell-type GEPs (sctGEPs)
+   - Used in Example 3 as the source of single-cell GEPs for simulation
+   - [Download Link](https://doi.org/10.6084/m9.figshare.23043560.v2)
+   - Place in `datasets/` directory
+- Merged bulk tumor dataset: `merged_tpm.csv` (~300MB)
+   - Merged TPM of 19 cancer types from TCGA
+   - Used in Example 3 as the reference dataset to guild the filtering steps
+   - [Download Link](https://doi.org/10.6084/m9.figshare.23047547.v2)
+   - Place in `datasets/TCGA/tpm/` directory
+
+## Dataset Directory Structure
 ```text
 datasets
 ├── TCGA
@@ -36,46 +122,19 @@ datasets
 │ └── tpm
 │     ├── LUAD
 │     │ └── LUAD_TPM.csv
-│     ├── merged_tpm.csv # merged TPM of 19 cancer types (need to be downloaded separately)
+│     ├── merged_tpm.csv # Download required
 │     └── tcga_sample_id2cancer_type.csv
 ├── gene_set  # used as the pathway profiles
 │ ├── c2.cp.kegg.v2023.1.Hs.symbols.gmt
 │ └── c2.cp.reactome.v2023.1.Hs.symbols.gmt
-├── simu_bulk_exp_SCT_N10K_S1_16sct.h5ad # Dataset S1 (need to be downloaded separately)
+├── simu_bulk_exp_SCT_N10K_S1_16sct.h5ad # Download required
 └── simulated_bulk_cell_dataset
     ├── D1
     │ ├── gene_list_filtered_by_high_corr_gene_and_quantile_range.csv  # gene list after gene-level filtering (different datasets can generate this gene list slightly differently)
     │ ├── gene_list_filtered_by_quantile_range_q_0.5_q_99.5.csv
-    │ └── simu_bulk_exp_Mixed_N100K_D1.h5ad # Dataset D1 (need to be downloaded separately)
+    │ └── simu_bulk_exp_Mixed_N100K_D1.h5ad # Download required
     └── D2
         ├── corr_cell_frac_with_gene_exp_D2.csv
         └── gene_list_filtered_by_high_corr_gene.csv # the list of high correlation genes (the same one used for the filtering step in other datasets)
 ```
 
-- The following file in the folder `DeSide_model` is larger than 100MB and has not been uploaded to GitHub. Please download and put it to the right place.
-  - `model_DeSide.h5`: the pre-trained model, which is used in the `example 1`. [Download link](https://doi.org/10.6084/m9.figshare.25117862.v1) (~100M)
-
-#### Folder structure of `DeSide_model`:
-```text
-DeSide_model
-├── celltypes.txt
-├── genes.txt
-├── genes_for_gep.txt
-├── genes_for_pathway_profile.txt
-├── history_reg.csv
-├── key_params.txt
-├── loss.png
-└── model_DeSide.h5 # the pre-trained model (need to be downloaded separately)
-```
-
-### Example 1: Using pre-trained model
-Using the pre-trained model to predict cell type proportions in a new dataset.
-- Jupyter notebook: [E1 - Using pre-trained model.ipynb](https://github.com/OnlyBelter/DeSide_mini_example/blob/main/E1%20-%20Using%20pre-trained%20model.ipynb)
-
-### Example 2: Training a model from scratch
-Training a model from scratch using the `DeSide` package and the synthesized bulk GEP dataset.
-- Jupyter notebook: [E2 - Training a model from scratch.ipynb](https://github.com/OnlyBelter/DeSide_mini_example/blob/main/E2%20-%20Training%20a%20model%20from%20scratch.ipynb)
-
-### Example 3: Synthesizing bulk tumors
-Synthesizing bulk tumors using the `DeSide` package.
-- Jupyter notebook: [E3 - Synthesizing bulk tumors.ipynb](https://github.com/OnlyBelter/DeSide_mini_example/blob/main/E3%20-%20Synthesizing%20bulk%20tumors.ipynb)
